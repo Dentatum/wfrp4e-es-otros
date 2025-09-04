@@ -2,7 +2,7 @@ Traducción fan en español para otros suplementos de WFRP4.
 
 ## Contenido
 - *Pasos ligeros y Manos largas* [En proceso].
-- *El Zoo Imperial*.
+- *El Zoo Imperial* [En proceso].
 
 ## Requisitos
 - Módulo Babele https://gitlab.com/riccisi/foundryvtt-babele
