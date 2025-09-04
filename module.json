@@ -1,0 +1,39 @@
+{
+  "id": "wfrp4e-es-otros",
+  "title": "WFRP4e - Español: Otros",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "scripts": [
+    "modules/initialization.js"
+	],
+  "esmodules": [
+    "register.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+		"manifest": "https://github.com/moo-man/WFRP4e-FoundryVTT/releases/latest/download/system.json"
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+		"manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+      },
+      {
+        "id": "wfrp4e-castellano",
+        "type": "module",
+		"manifest": "https://github.com/Txus5012/WFRP4e-Castellano/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "description": "Traducción fan en español para otros suplementos de WFRP4. Requiere Babele, el módulo original de traducción y los módulos oficiales de Cubicle 7.",
+  "manifest": "https://raw.githubusercontent.com/Dentatum/wfrp4e-es-enemigo/refs/heads/master/module.json",
+  "download": "https://github.com/Dentatum/wfrp4e-es-enemigo/archive/refs/heads/master.zip"
+}
