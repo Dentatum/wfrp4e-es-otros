@@ -1,0 +1,642 @@
+{
+  "label": "Tablas (Pasos ágiles y Manos largas)",
+  "mapping": {
+    "tablenames": {
+      "path": "results",
+      "converter": "tablenames"
+    }
+  },
+  "folders": {
+    "Burglary, Chicanery, and Fraud": "Burglary, Chicanery, and Fraud",
+    "Criminal Contacts": "Contactos criminales",
+    "Endeavour Complications": "Complicaciones de empresa",
+    "Events Tables": "Tablas de encuentros",
+    "Outlaw Traits": "Rasgos de forajido",
+    "Pathfinding": "Exploración",
+    "Watch & Bounty Hunters": "Guardia y Cazarrecompensas"
+  },
+  "entries": {
+    "Ancient Tomb – Entrance": {
+      "name": "Tumba antigua – Entrada",
+      "description": "",
+      "results": {
+        "1-2": "<p><strong>Open Doorway</strong></p>",
+        "3-3": "<p><strong>Doorway Buried</strong><br />Requires <strong>Hard (-20) Perception</strong> Test to locate.</p>",
+        "4-4": "<p><strong>Reinforced Oak Door</strong><br /><strong>Pick Lock</strong>: 4 SL<br /><strong>Toughness</strong>: 50<br /><strong>Wounds</strong>: 20</p>",
+        "5-5": "<p><strong>Reinforced Oak Door<br />Pick Lock</strong>: 5 SL<br /><strong>Toughness</strong>: 50<br /><strong>Wounds</strong>: 20</p>",
+        "6-6": "<p><strong>Wrought Iron Gate</strong><br /><strong>Pick Lock</strong>: 4 SL<br /><strong>Toughness</strong>: 60<br /><strong>Wounds</strong>: 25</p>",
+        "7-7": "<p><strong>Wrought Iron Gate</strong><br /><strong>Pick Lock</strong>: 5 SL<br /><strong>Toughness</strong>: 60<br /><strong>Wounds</strong>: 25</p>",
+        "8-9": "<p><strong>Stone Covering</strong><br />Requires <strong>Extended Hard (-20) Strength</strong> Test to a total of 10 SL to move. Fumbles during the Test result in a @Condition[Fatigued] Condition.</p>",
+        "10-10": "<p><strong>Heavy Stone Covering</strong><br />Requires <strong>Extended Very Hard (-30) Strength</strong> Test to a total of 15 SL to move. Fumbles during the Test result in a @Condition[Fatigued] Condition.</p>"
+      }
+    },
+    "Ancient Tomb – Features": {
+      "name": "Tumba antigua – Características",
+      "description": "",
+      "results": {
+        "1-2": "<p>None</p>",
+        "3-3": "<p><strong>Forsaken by Morr</strong>Any @UUID[Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g]{Undead} creatures encountered in the tomb resist final death and possess the @UUID[Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR]{Regenerate} Trait.</p>",
+        "4-4": "<p><strong>Sarcophagus</strong>Anything of value in the tomb is contained in a sarcophagus.</p>",
+        "5-5": "<p><strong>Submerged Chamber</strong>To acquire any available loot, a Character must pass an <strong>Extended Hard (-20) Swim</strong> Test to a total of 15 SL.</p>",
+        "6-6": "<p><strong>Giant Rats</strong>A family of six @UUID[Compendium.wfrp4e-core.actors.Actor.oenbbB0PitRWUBfZ]{Giant Rats} make their home within the tomb and will attack any intruders.</p>",
+        "7-7": "<p><strong>Freezing Air</strong>The temperature in the tomb is unnaturally cold. Characters entering the tomb must immediately test for @UUID[Compendium.wfrp4e-core.journals.JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#exposure]{exposure} to cold.</p>",
+        "8-8": "<p><strong>Rockfall Trap</strong>A trap has been set whereby rocks will fall on any Characters treading on a loose paving slab. Each member of the party must take a <strong>Challenging (+0) Perception</strong> Test. The first Character to fail is struck and takes [[/r 1d10]] Damage to the Head modified by Armour Points and Toughness.</p>",
+        "9-9": "<p><strong>Yellow Mould</strong>A patch of Yellow Mould is spotted on an <strong>Easy (+20) Lore (Plants)</strong> or <strong>Challenging (+0) Lore (Herbs)</strong> Test. Characters can avoid triggering the mould on an <strong>Average (+20) Stealth</strong> Test. If triggered, it releases a cloud of spores 5 yards wide which lasts [[/r 1d10]] Rounds. Characters in the area must pass an <strong>Average (+20) Endurance</strong> Test or gain 1 @Condition[Blinded] Condition, plus a further 1 @Condition[Blinded] Condition per –SL. Characters receive 1 Wound for every round spent in the cloud.</p>",
+        "10-10": "<p><strong>Labyrinthine Passageways</strong>To reach the main burial chamber the Characters must navigate a network of passages. Finding a way through requires an <strong>Extended Challenging (+0) Navigation</strong> Test to a total of 20 SL. Any fumbles result in the Characters returning to the entrance and having to start again.</p>"
+      }
+    },
+    "Ancient Tomb – Inhabitants": {
+      "name": "Tumba antigua - Habitantes",
+      "description": "",
+      "results": {
+        "1-1": "<p>None</p>",
+        "2-2": "<p>[[/r d10]]{D10} Goblins</p>",
+        "3-3": "<p>Bandits</p>",
+        "4-4": "<p>Tomb Robbers</p>",
+        "5-5": "<p>Necromancer</p>",
+        "6-7": "<p>Ghost or Spectre</p>",
+        "8-8": "<p>[[/r d10]]{D10} Skeletons</p>",
+        "9-9": "<p>[[/r d10]]{D10} Skeletons and a Banshee</p>",
+        "10-10": "<p>[[/r d10]]{D10} Skeletons and a Cairn Wraith</p>"
+      }
+    },
+    "Ancient Tomb – Loot": {
+      "name": "Tumba antigua - Botín",
+      "description": "",
+      "results": {
+        "1-2": "<p>None</p>",
+        "3-3": "<p>Golden Ornaments worth 2 GC.</p>",
+        "4-4": "<p>Golden Ornaments worth [[/r d10]]{1D10} GC.</p>",
+        "5-6": "<p>A horde of ancient coins worth [[/r 2d10]]{2D10} GC.</p>",
+        "7-7": "<p>Rusted swords and armour of historical interest, but no real value.</p>",
+        "8-8": "<p>A bulky item such as a marble statue or golden ornament, worth [[/r 3d10]]{3D10} GC, but with 4 Enc.</p>",
+        "9-9": "<p>A collection of weapons including 4 spears, 4 swords, and 4 shields. The items are of archaic design and well preserved, with the @Property[Fine] Quality.</p>",
+        "10-10": "<p>Magical items, either a @UUID[Compendium.wfrp4e-archives2.journals.JournalEntry.hCDofMZ5QV2Y7z6r.JournalEntryPage.0X79eVjQ8MsvKiY2]{weapon} or [[/r d10]]{1D10} @UUID[Compendium.wfrp4e-wom.journals.JournalEntry.x6OdswRIafU9qGYs.JournalEntryPage.4k3qbP7drfV1mIdr]{potions}.</p>"
+      }
+    },
+    "Bawd Income Endeavour Complications": {
+      "name": "Complicaciones en empresa de salario de Chalán",
+      "results": {
+        "1-1": "<p><b>Major Favour Owed.</b> You have seriously failed to exercise discretion. Maybe a wealthy customer was exposed whilst in your care, or you gossiped too much about a local kingpin. You now owe this person a Major Favour.</p>",
+        "2-2": "<p><b>Blackmail.</b> You have recieved a letter threatening to reveal compromising information about you or your customers unless you pay 2 Gold Crowns by the next period of downtime. Details of how to pay, whether the writer has information, and how they can be tracked down is up to the GM.</p>",
+        "3-4": "<p><b>Friend in a Low Place.</b> You are approached by a Fence working for a criminal organisation. They need a buyer for some contraband. If you can help out by the next period of Downtime they may provide a share of the profit.</p>",
+        "5-6": "<p><b>Rumour.</b> You hear of a rumour about an opportunity, or a scam that worked in a foreign city and has yet to be tried locally. Details are up to the GM, but some ideas are given @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Irryfr7EthG42fzj.JournalEntryPage.XpxqHzvxCAr35b9R#underworld-rumours]{Underworld Rumours}.</p>",
+        "7-8": "<p><b>A Favour Owed.</b> You have earned the ire of a customer. They may call in a Moderate Favour in time, as the price for your carelessness.</p>",
+        "9-9": "<p><b>Contact.</b> Your hustling among the underworld puts you in touch with someone who might make for a significant contact. If you take the Contact Endeavour during this period of downtime any Tests you make in the course of the Endeavour benefit from +1 SL.</p>",
+        "10-10": "<p><b>Friend in a High Place.</b> You host an important personage who wishes to take a tour of the local rookeries, perhaps even a countess or lector of the Cult of Sigmar. They may wish to indulge in a vice that might compromise them in the eyes of their peers. You play your part well, and as a result establish a friendly acquaintance with this person.</p>"
+      }
+    },
+    "Bounty Hunter Warrants — Outlaw Crimes": {
+      "name": "Bounty Hunter Warrants — Outlaw Crimes",
+      "description": "",
+      "results": {
+        "1-1": "<p><b>Fraudster:</b> Probably not dangerous but might be hard to identify.</p>",
+        "2-2": "<p><b>Murderer:</b> Highly dangerous and hard to capture alive.</p>",
+        "3-3": "<p><b>Robber:</b> Easy to identify but hard to locate. Usually has accomplices.</p>",
+        "4-4": "<p><b>Con Artist:</b> Probably not dangerous but might have multiple disguises.</p>",
+        "5-5": "<p><b>Burglar:</b> Difficult to locate and capture. Skilled at escaping custody.</p>",
+        "6-6": "<p><b>Arsonist:</b> Often leaves clues. Possibly unhinged or politically motivated.</p>",
+        "7-7": "<p><b>Poacher:</b> Possible vigilante against noble. Skilled at wilderness evasion.</p>",
+        "8-8": "<p><b>Heretic:</b> Might be a former initiate or cleric. Often has likeminded followers.</p>",
+        "9-9": "<p><b>Mutant:</b> Easy to identify; might have fled to a hidden mutant colony.</p>",
+        "10-10": "<p><b>Cultist:</b> Possible witch or sorcerer; hard to track and probably has accomplices.</p>"
+      }
+    },
+    "Bounty Hunter Warrants — Reward Conditions": {
+      "name": "Bounty Hunter Warrants — Reward Conditions",
+      "description": "",
+      "results": {
+        "1-1": "<p><b>Outlaw wanted for interrogation.</b> Must be alive. 5 GC.</p>",
+        "2-2": "<p><b>Outlaw wanted as example to others.</b> Dead or Alive. 5 GC.</p>",
+        "3-3": "<p><b>Fugitive from justice.</b> To stand trial for moderate crimes. Must be alive. 5 GC.</p>",
+        "4-4": "<p><b>Fugitive from justice.</b> To stand trial for serious crimes. Must be alive. 8 GC.</p>",
+        "5-5": "<p><b>Fugitive from justice.</b> To stand trial for heinous crimes. Must be alive. 10 GC.</p>",
+        "6-6": "<p><b>Fugitive from gaol.</b> Escaped punishment for moderate crimes. Dead or alive. 8 GC.</p>",
+        "7-7": "<p><b>Fugitive from gaol.</b> Escaped punishment for serious crimes. Dead or alive. 10 GC.</p>",
+        "8-8": "<p><b>Fugitive from gaol.</b> Escaped punishment for heinous crimes. Dead or alive. 15 GC.</p>",
+        "9-9": "<p><b>Imfamous Outlaw Chief.</b> Wanted dead or alive. 40 GC.</p>",
+        "10-10": "<p><b>Notorious Bandit King.</b> Wanted dead or alive. 80 GC.</p>"
+      }
+    },
+    "Bounty Hunter Warrants — Warrant Agent": {
+      "name": "Bounty Hunter Warrants — Warrant Agent",
+      "description": "",
+      "results": {
+        "1-1": "<p><b>Town Bailiff:</b> Oversees town watch, and reports directly to issuing noble.</p>",
+        "2-2": "<p><b>Verenan Judge:</b> Issues the warrant personally, and hires only reputable hunters.</p>",
+        "3-3": "<p><b>Town Magistrate:</b> Issues the warrant personally. Sits on town council.</p>",
+        "4-4": "<p><b>Local Noble:</b> Issues the warrant for a crime committed nearby.</p>",
+        "5-5": "<p><b>Visiting Noble:</b> Issues the warrant for a crime committed abroad.</p>",
+        "6-6": "<p><b>Roadwarden Captain:</b> Can post wanted bills. Reports to issuing judge or noble.</p>",
+        "7-7": "<p><b>Riverwarden Captain:</b> Can post wanted bills. Reports to issuing judge or noble.</p>",
+        "8-8": "<p><b>Watch Captain:</b> Can post wanted bills. Reports to bailiff or town council.</p>",
+        "9-9": "<p><b>Bounty Hunter General:</b> A subcontract via guild or independent general.</p>",
+        "10-10": "<p><b>High Priest:</b> Temple court judge; issues the warrant personally.</p>"
+      }
+    },
+    "Burglar, Pickpocket, Thief Income Endeavour Complications": {
+      "name": "Complicaciones en empresa de salario de Ratero, Carterista y Ladrón",
+      "results": {
+        "1-1": "<p><strong>Ranaldans Take Note.</strong> A local group worshipping Ranald the Night Prowler learn of your activities. They could be good allies if you abide by the Ranaldan code, but may mislead you with deceptions and pranks if you offend them.</p>",
+        "2-2": "<p><strong>Drawing the Heat.</strong> You have drawn more heat than you would otherwise like. Whilst the city watch are more concerned with keeping the peace than investigating crimes, the Cult of Verena do sponsor dedicated investigators. Otherwise, the next time you come to a period of downtime, the Under Suspicion Event applies to you before anything else is determined.</p>",
+        "3-4": "<p><strong>Barred.</strong> Whilst no one can make an accusation stick, you gain a reputation for stealing. Shopkeepers and landlords decide you are not welcome in their establishments. The GM should decide exactly how many places bar you from entry, but at least one venue bars you. Where many taverns are in close proximity, such as Altdorf's Street of a Hundred Taverns, many may ban you simultaneously.</p>",
+        "5-6": "<p><strong>Lucky Find.</strong> In addition to securing your usual income, you make an extra find. Roll once on the @Table[contents-of-purse]{The Contents of a Purse} table.</p>",
+        "7-8": "<p><strong>A Favour Owed.</strong> You think you've gotten away with your crimes when you are contacted by a person who implies that they know what you are up to. They may call in a Minor Favour in time, as the price of keeping your crimes a secret.</p>",
+        "9-9": "<p><strong>Kingpin Takes Notice.</strong> Word of the thief's activities reaches the ear of a local crime lord. Such folk usually make a simple offer: work for me or suffer the consequences. See @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.CezQBybX47Mx7Fdt]{Organised Crime} for some ideas about kingpins.</p>",
+        "10-10": "<p><strong>Rich Pickings.</strong> In addition to making your usual income, you lift a couple of more interesting items. Roll twice on the @Table[contents-of-purse]{The Contents of a Purse} table.</p>"
+      }
+    },
+    "Charlatan Income Endeavour Complications": {
+      "name": "Complicaciones en empresa de salario de Charlatán",
+      "results": {
+        "1-1": "<p><strong>Ranaldans Take Note.</strong> A local group devoted to Ranald the Deceiver learn of your scams. They could make good confederates if you abide by the Ranaldan code, but if you don't they may target you for their own thefts and tricks.</p>",
+        "2-2": "<p><strong>Tragic Customer.</strong> One of your customers puts too much faith in your false promises and a tragedy results. Maybe they rely on your quack medicine over other medical assistance or believe that a phoney relic protects them from harm. The exact nature of this tragedy and its ramifications are left to the GM, but at the very least there are friends of the customer who will be furious if they discover who is to blame.</p>",
+        "3-4": "<p><strong>Fanatical Customer.</strong> One of your customers is convinced that you work miracles. Perhaps they made a full recovery from ghoulpox after drinking your snake oil or experienced a prophetic dream upon buying your blessed tin comet pendant. Now, they are devoted to you to an embarrassing degree, following you and proclaiming your genius. How this develops is up to the GM. It may help you find more customers but may also attract unwanted attention.</p>",
+        "5-6": "<p><strong>Rumour.</strong> You hear of a rumour about an opportunity, or a scam that has yet to be tried locally. Details are up to the GM, but some ideas are given @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Irryfr7EthG42fzj.JournalEntryPage.XpxqHzvxCAr35b9R#underworld-rumours]{Underworld Rumours}.</p>",
+        "7-8": "<p><strong>Long Con.</strong> Your scams are arousing interest, but customers are cautious. If you are careful and patient, this could pay out. You gain no money from the Income Endeavour this time. However, if you take an Income Endeavour during the next period of downtime and succeed, you make [[/r 1d10]] times the normal amount of money.</p>",
+        "9-9": "<p><strong>Potential Confederate.</strong> You are approached by a petty thief who insinuates that they know what you are up to and would like to help by providing distractions. If you hire them, you must pay a shilling retainer at the start of subsequent periods of downtime. In future, when taking an Income Endeavour roll [[/r 1d10]]. On a 1 to 9, you earn 20% extra as a result of the confederate's help. On a 10, they abscond with all the money earned.</p>",
+        "10-10": "<p><strong>Kingpin Takes Notice.</strong> Your crimes have come to the notice of an underworld boss. If you don't cooperate with them, they might make your life difficult. See @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.CezQBybX47Mx7Fdt]{Organised Crime} for some ideas about kingpins.</p>"
+      }
+    },
+    "Contact Development": {
+      "name": "Contact Development",
+      "description": "",
+      "results": {
+        "1-27": "<p><b>Things Are Quiet.</b> There is no significant change in the Contact’s circumstances.</p>",
+        "28-33": "<p><b>Lying Low.</b> The Contact has quit their usual residence in order to escape the scrutiny of rivals or authorities. They are likely still in the same city or province, but effort must be made in order to track them down.</p>",
+        "34-39": "<p><b>Complacency.</b> The Contact’s heart isn’t in it anymore. Reduce their Quality of Service by 1 level.</p>",
+        "40-44": "<p><b>Gang Takeover.</b> Organised criminals pressure the Contact to work for them. If the Contact was already part of a gang they join a breakaway faction or a rival gang. Depending on the quality of their relationship, they may recommend the Characters as potential associates to the gang (whether the Characters like it or not).</p>",
+        "45-48": "<p><b>Dubious Customer.</b> The Contact takes on work for a customer who the Character may not wish to associate with. The identity of this customer is left to the GM, but it may be a member of a rival gang, a revolutionary sect, a necromancer, Chaos cultist, or a species that views humanity with hostility, such as the Skaven.</p>",
+        "49-54": "<p><b>Hard Times.</b> The Contact grows desperate for money, and may seek the Character out to borrow funds.</p>",
+        "55-59": "<p><b>Sick.</b> The Contact contracts @UUID[Compendium.wfrp4e-core.items.Item.UAwTqZ3hqNb7vq9s]{Itching Pox}, and may be a source of contagion for the next [[/r 1d10]] weeks.</p>",
+        "60-64": "<p><b>Corrupting Influence.</b> During their activities the Contact is exposed to a @Corruption[moderate]{Moderate Source of Corruption}.</p>",
+        "65-69": "<p><b>Stakeout.</b> Members of the watch or a rival gang are keeping an eye on comings and goings around the Contact. If the Character contacts them during this time, there is a [[/r d100]]{33%} chance that the meeting is noticed.</p>",
+        "70-73": "<p><b>Religious Conversion.</b> Whilst the Contact remains a rogue, they have a marked shift in attitude in their approach to crime. If they didn’t follow Ranaldan principles before, they might take them up, or they devote themselves to a revolutionary cause, or even begin to worship a darker power.</p>",
+        "74-78": "<p><b>Out of Sight….</b> Unless the Character has been in touch with the Contact since the last time this table was consulted, the Contact assumes they have parted ways, and the Quality of their Relationship becomes one step less close, so a Contact with a Good relationship to the Character now has an Average relationship.</p>",
+        "79-83": "<p><b>Jailed.</b> The Contact is convicted of a crime, and spends the next [[/r 2d10]] months in gaol.</p>",
+        "84-89": "<p><b>On a Learning Curve.</b> The Contact pushes themself to improve. To represent their growth, they move one step down the Quality of Service column of the Quality table, eg. from Fair to Superior Quality.</p>",
+        "90-93": "<p><b>Pastures New.</b> The Contact has decided to move to a different town or city. They may have left secret signs at their old address explaining where they have gone, left news with mutual acquaintances, or simply vanished.</p>",
+        "94-97": "<p><b>Going Straight.</b> The Contact tires of the criminal life, and tries to find a lawful role in society. If the relationship between the Contact and the Character is good, the Contact may be tempted to perform services for the Character, but they will need to be talked into it.</p>",
+        "98-100": "<p><b>Embroiled in Violence.</b> The Contact is assaulted by rivals, and suffers a randomly generated Critical Wound. This may result in the death of the Contact.</p>"
+      }
+    },
+    "Cooking Critical Failure Table": {
+      "name": "Cooking Critical Failure Table",
+      "description": "",
+      "results": {
+        "1-3": "<b>Disgusting:</b> The food is barely edible. Anyone wanting to eat will need to make an <b>Average (+20) Endurance</b> or not be able to stomach it.",
+        "4-5": "<b>Spoiled:</b> The food is completely spoiled and if the party are to eat, more needs to be found and prepared.",
+        "6-7": "<b>Burned:</b> All the food is completely spoiled, and if there are enemies anywhere in the vicinity, they should have a very good view of a billowing cloud of black smoke.",
+        "8-8": "<b>Food Poisoning:</b> Everyone eating the food gets a number of @Condition[Poisoned]{Poisoned} Conditions equal to the level of failure of the test.",
+        "9-9": "<b>The Bloody Flux:</b> Make an <b>Easy (+40) Endurance</b> or contract the @UUID[Compendium.wfrp4e-core.items.Item.herUmN51D9TiL2Vn]{Bloody Flux}.",
+        "10-10": "<b>Galloping Trots:</b> Make an <b>Average (+20) Endurance</b> or contract the @UUID[Compendium.wfrp4e-core.items.Item.txeLd7R13qxSvmsr]{Galloping Trots}."
+      }
+    },
+    "Corpse Complications": {
+      "name": "Corpse Complications",
+      "description": "",
+      "results": {
+        "2-2": "<p><b>Presumptive Interment.</b> The corpse is not dead! Whoever it was who was placed in the grave was only apparently dead as the result of a deep stupor or episode of catalepsy. They may have profoundly mixed feelings about being rescued from their premature burial by a criminal who sells corpses.</p>",
+        "3-3": "<p><b>Stirring Cadaver.</b> Rites of Morr have not been thoroughly effective when it comes to this corpse. This may mean that the corpse spontaneously manifests as a zombie if it is exposed to a corrupting influence, or if a magical miscast occurs in its vicinity.</p>",
+        "4-7": "<p><b>Suffuse with Shyish.</b> The corpse is suffused with Shyish, which those with Second Sight can perceive gathering around the body in a sombre amethyst cloud. Any successful attempts to cast spells from the Lore of Death within 8 yards of the corpse gain +1 SL. This bonus may be claimed only once, no matter how many sources in the vicinity are suffused with Shyish.</p>",
+        "8-14": "<p><b>Familiar Face.</b> The body is in fine condition but may be rather more recognisable than you had anticipated. Anyone who knew this person in life would have no problem recognising their corpse.</p>",
+        "15-17": "<p><b>Bloated Corpse.</b> Even though the cadaver may be the remains of someone who died recently, it is decomposing with shocking rapidity, becoming bloated and producing a foul stink. If the customer is expecting a fresh corpse, they will not be impressed.</p>",
+        "18-19": "<p><b>Ransacked Remains.</b> The corpse had its internal organs removed before you got to it. If a customer is expecting a corpse with internal organs, they will be disappointed.</p>",
+        "20-20": "<p><b>Stirring Spirit.</b> Rites of Morr have not been thoroughly effective with this corpse. Its spirit may return to trouble the Grave Robber as a Ghost, which may keep haunting them until its body is given a respectful burial once more.</p>"
+      }
+    },
+    "Creepy Customer": {
+      "name": "Creepy Customer",
+      "description": "",
+      "results": {
+        "2-2": "<p><b>Necrarch Vampire.</b> A powerful Vampire with mastery over necromantic powers contacts the Grave Robber through a wretched servant intermediary.</p>",
+        "3-4": "<p><b>Cannibal Fiend.</b> This customer could be on their way to becoming a Ghoul but may seek to keep such creatures fed for reasons of their own.</p>",
+        "5-6": "<p><b>Necromancer.</b> Looking to improve their mastery of necromantic magic, such people are in constant need of corpses.</p>",
+        "7-9": "<p><b>Intriguer.</b> This person wants to put a body to a political end. They may wish to pin a murder on a rival or use news of a death in service of a cause.</p>",
+        "10-12": "<p><b>Corrupt Physician.</b> This surgeon wishes to better understand the workings of the Human body. They pay for fresh, undamaged bodies only.</p>",
+        "13-15": "<p><b>Dubious Scholar.</b> A dusty academic seeks to improve their knowledge of anatomy.</p>",
+        "16-17": "<p><b>Fugitive.</b> This person wishes to use a body to fake a death so that they, a family member, or a client can start up a new life elsewhere.</p>",
+        "18-19": "<p><b>Mad Mage.</b> This is likely an Amethyst Wizard looking to harvest Shyish, but may be a Gold Wizard looking for alchemical components, or a witch looking for ingredients for their rituals.</p>",
+        "20-20": "<p><b>Daemonologist.</b> Whilst living sacrifices make the best ingredients for the pacts of daemonology, worshippers use body parts for petty favours.</p>"
+      }
+    },
+    "Criminal Events": {
+      "name": "Criminal Events",
+      "description": "",
+      "results": {
+        "1-4": "<p><strong>Watch - Good Crooks And Bad Constables</strong> – The Watch has been taken over by a corrupt commander who has started muscling in on the organisation’s territory. To keep up, the Character must undertake at least one Income Endeavour during this downtime period but receives only 50% of the income. If they do not do this, they may not make any @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.oVncgdl1rKl1S1cx#maintain-influence]{Maintain Influence} or @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.oVncgdl1rKl1S1cx#organising-crime]{Organising Crime} Endeavours. The rivals remain an ongoing threat, and the next ‘Gang War’ result will involve them. Due to the support they can pull from legitimate Watch members, any Test made to oppose them will be Difficult (-20%).</p>",
+        "5-8": "<p><strong>Watch - Someone Must be Found to Pay for the Crime</strong> – The headquarters is raided by the Watch, forcing them to relocate to an older (and smaller) hideout. The organisation’s level for the purpose of @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.oVncgdl1rKl1S1cx#organising-crime]{Organising Crime} Endeavours is reduced by one level until three adventures have passed or the character re-purchases the lost level. If a ‘Gang War’ event occurs during this period, the rival gang/leader gains +1 SL on all Tests.</p>",
+        "9-12": "<p><strong>Watch - Criminals Become Victims of their Own Success</strong> – Due to a spectacular crime drawing attention, the Watch have begun a major crackdown. No Character can make @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.oVncgdl1rKl1S1cx#organising-crime]{Organising Crime} Endeavours until the end of the next adventure. In addition, characters with Criminal Careers may not perform the @UUID[Compendium.wfrp4e-core.journals.JournalEntry.gLDW6JBuoYuzCoya.JournalEntryPage.JX9ifRlgzzGrU2zh]{Income} Endeavour at all until the end of the next adventure.</p>",
+        "13-16": "<p><strong>Watch - Are you Sure this is a Legitimate Business?</strong> – The Watch have directed excisemen to investigate the organisation’s legal fronts. The Character must spend an Endeavour assisting the investigation or pay 10% of the Enterprise’s most recent @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.oVncgdl1rKl1S1cx#build-gang]{Build Gang} Endeavour Costs in non-compliance fees.</p>",
+        "17-20": "<p><strong>Watch - Keep it Quiet</strong> – Your latest score draws heat from the Watch. If you use the @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.oVncgdl1rKl1S1cx#organising-crime]{Organising Crime} Endeavour during this period of downtime you gain+50% to any resources you collect. However, you cannot use the Organising Crime Endeavour during the next period of downtime.</p>",
+        "21-24": "<p><strong>No Honour Among Thieves</strong> – One of your Character’s Trappings, whatever is most valuable and portable, is stolen. The Character may attempt to reclaim it in the next adventure or accept its loss as part of the cost of doing business.</p>",
+        "25-28": "<p><strong>Factionalism</strong> – A disillusioned member leaves to start their own gang. The member is replaced by the start of the next adventure; however, the new gang may become an ongoing threat, and the next ‘Gang War’ result may involve them. Due to past friendships within the gang, and knowledge of your operations, this rival receives a bonus of +10 to opposed Tests.</p>",
+        "29-32": "<p><strong>Market Jitters</strong> – The organisation’s source of income dries up, meaning it must select a new source of income. If this was the organisation’s only source of income, the organisation counts as a Level 1 every time it tries to Get Resource during this downtime, as it is working hard to establish new contacts and fresh lines of supply.</p>",
+        "33-36": "<p><strong>Time to Make an Example</strong> – A ‘customer’ can’t make his protection payment, or a gang member falls short on his take. The character can either ‘make an example’ of the individual, and until the end of the next adventure, the character gains +10 to Intimidate Tests, but -10 to Charm Tests, or show mercy, causing others to follow suit, reducing the criminal organisation’s level by 1 until the end of the next adventure.</p>",
+        "37-40": "<p><strong>Knock-on Effects</strong> – The gang’s activities unexpectedly cause a complication for the Character’s companions. Roll on the @Table[event]{Events} Table and apply the effect to a different random Character.</p>",
+        "41-44": "<p><strong>A Fortunate Friend</strong> – A Priest of Ranald has befriended the gang. This has caused members to forswear the use of violence and attempt daring heists. If the Character uses Get Resource they receive [[/r d10]] shillings per level rather than the usual amount. Alternatively, they may chase off the Priest, but doing so earns Ranald’s disfavour, and they lose 1 Fortune Point next session.</p>",
+        "45-48": "<p><strong>Our Man on the Inside</strong> – The gang gains a high-ranking informant in the Watch. This can be used to either negate a single future Watch Event or grant 2 additional SL on a ‘Gang War’ Test as the informant directs the Watch against the rival gang.</p>",
+        "49-52": "<p><strong>You Get What You Take</strong> – As part of the gang’s usual operations, they come upon an item of value that is highly illegal/heretical (the GM can decide the exact item). Obviously, the character can keep or sell the item, but alternatively, they can hand it in to the proper authorities, earning a degree of goodwill. Next time the character rolls a Watch Event, that Event may be rerolled. The Character must accept the result of the second roll.</p>",
+        "53-56": "<p><strong>Bad Bookkeeping</strong> – A problem with rogues is that they tend to skive off administrative tasks. The Character must spend an Endeavour catching up on all the duties that their underlings have shirked. This does not count as an Income Endeavour. However, your sheepish members are nervous around the Character for the next few days, and any Skill Tests the Character is required to make as part of their other Endeavours they receive an assist with, as their underlings rush to help out.</p>",
+        "57-60": "<p><strong>Keep Your Friends Close…</strong> – A visitor to the city offers his skills in return for the organisation’s permission to engage in activity in the city. The Character may perform a single Endeavour usually restricted to a specific Class, even if he is not of that Class.</p>",
+        "61-64": "<p><strong>Talent Is Forever</strong> – A gang member, proud of a remarkable feat of skill he pulled off in a recent heist, is eager to share his knowledge. One @UUID[Compendium.wfrp4e-core.journals.JournalEntry.gLDW6JBuoYuzCoya.JournalEntryPage.0T8zisBH3D082Ztw]{Training} Endeavour carried out by the organisation can be carried out at zero monetary cost. Alternatively, one Unusual Learning Endeavour can be carried out at half the monetary cost, but at Average Difficulty (+20%).</p>",
+        "65-70": "<p><strong>A Little Birdie Told Me</strong> – The gang gains an informant in a rival gang. This grants the Character +2 SL to any Tests as part of the next Gang War Event. After the war has concluded, the informant joins the gang permanently. If the GM wishes the Character may take this opportunity to create a new Contact.</p>",
+        "71-75": "<p><strong>Diversification</strong> – The Enterprise gains a new Source of income. Any successful attempts to Get Resource this period of downtime result in double the usual amount of money.</p>",
+        "76-80": "<p><strong>Fell Off The Back Of A Cart</strong> – A gang member lays his hands on a valuable item that he donates to the organisation. This can be any item of value up to the criminal organisation’s costs to grow to its current level.</p>",
+        "81-84": "<p><strong>Trouble for the Watch</strong> – Members of the local watch have been chastised. They may have inadvertently arrested a powerful noble or priest or had corrupt practices exposed by followers of Verena or Ranald. For a period of the GM’s choosing, but no less than a week, they err on the side of caution and turn a blind eye to petty crimes.</p>",
+        "85-88": "<p><strong>Gang War - He’s No Longer With Us</strong> – Another gang encroaches onto the territory. If the Character backs down, they may not make @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.oVncgdl1rKl1S1cx#organising-crime]{Organising Crime} Endeavours during this period of downtime. If the Character fights back, the number of Racketeers who turn up the next time the Character uses Get Muscle is reduced by 2, but the Character gains a +2 SL bonus to interact with local criminals, who respect them for taking a stand.</p>",
+        "89-92": "<p><strong>Gang War - Turning the Heat Up</strong> – A rival gang instigates an all-out war. Make an <strong>Opposed Challenging (+0) Intimidation</strong> Test against the upstart and record the result, adding +1 SL for each level of the gang. The war continues into subsequent downtimes: make a further test each downtime until one side achieves 10 SL. No @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.oVncgdl1rKl1S1cx#build-gang]{Build Gang} Endeavours may be made with the Enterprise while the conflict continues. If the rivals win, the Enterprise is disbanded. If the character wins, all “Gang War” results are ignored for the next 5 downtimes, during which any successful attempts to Get Resource benefit from a 50% increase to earnings.</p>",
+        "93-96": "<p><strong>Gang War - A Tempting Offer</strong> – A member of the Inner Circle, or an underling backed by mysterious sponsors offers to purchase the gang. If the Character and their co-investors accept, they lose control of the gang and they gain wealth equal to double the organisation’s most recent cost to grow. However, this offer is not a suggestion, and if the character declines, replace it with “97-00: Gang War – Regicide”.</p>",
+        "97-100": "<p><strong>Gang War - Regicide</strong> – A gang member, such as an underboss, makes a play for control, resulting in a bloody conflict that costs the organisation significant resources. Make an <strong>Opposed Challenging (+0) Intimidation</strong> Test against the upstart. If you lose the organisation’s level is reduced by one. Furthermore, no @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.oVncgdl1rKl1S1cx#build-gang]{Build Gang} Endeavours may be made with the organisation during this downtime.</p>"
+      }
+    },
+    "Crypt Complications": {
+      "name": "Crypt Complications",
+      "description": "",
+      "results": {
+        "2-2": "<p><b>Stake.</b> The corpse has been impaled with a long stake of ash. What happens if it is removed is up to the GM. Any Character passing a <b>Very Easy (+60) Lore (Undead)</b> Test knows this is intended to prevent a corpse rising again as a Vampire.</p>",
+        "3-3": "<p><b>Papers.</b> The coffin is filled with papers and no corpse is found. The papers may divulge corrupt business practices, unethical magical experimentation, intrigue between noble houses, or other activity the GM feels is appropriate.</p>",
+        "4-6": "<p><b>Mass Grave.</b> You have uncovered a mass grave, filled with those too poor to afford a private plot. You must test for exposure to the @UUID[Compendium.wfrp4e-core.items.Item.aKiuGzlVO51JvsjV]{The Black Plague}.</p>",
+        "7-9": "<p><b>Fine Clothing.</b> The corpse wears a nice jacket worth 9/- and well-cut clothes worth 5/-.</p>",
+        "10-12": "<p><b>Pennies.</b> It is a tradition in the Old World to place two pennies on the eyes of a corpse so that it may pay its way into Morr’s realm. The theft of the pennies is considered abhorrent; it may result in the spirit of the dead becoming restless and is a primary reason why folk loathe Grave Robbers.</p>",
+        "13-15": "<p><b>Rich Grave Goods.</b> The corpse wears a coat worth 1 GC, fine clothes worth 10/-, several gold rings worth 4 GC.</p>",
+        "16-18": "<p><b>Ghouls.</b> As you break open the crypt, something hisses back at you. You have disturbed a pair of Ghouls at their feast. Nothing of value remains.</p>",
+        "19-19": "<p><b>Sumptuous Grave Goods.</b> The corpse wears robes worth 4 GC, sumptuous clothing worth 2 GC, and stunning jewels worth a total of 10 GC.</p>",
+        "20-20": "<p><b>Notable Person.</b> As above, but on a successful Hard (-20) Lore (Heraldry) Test, you recognise the corpse as local person of significance who disappeared recently.</p>"
+      }
+    },
+    "Fence Income Endeavour Complications": {
+      "name": "Fence Income Endeavour Complications",
+      "description": "",
+      "results": {
+        "1-1": "<p><strong>Refunds Sought.</strong> Just as you think you have gotten away with it, a buyer returns unsatisfied. Make a <strong>Difficult (-10) Haggle</strong> Test or lose half your earnings.</p>",
+        "2-2": "<p><strong>Unsafe House.</strong> If you possess or use a particular establishment to store or sell stolen goods, the local watch hear about it and start to consider raiding the venue. If this is not dealt with the next time you come to a period of downtime the Under Suspicion Event, applies before anything else is determined.</p>",
+        "3-4": "<p><strong>Hot Item.</strong> Among the goods you have been handling is an item being desperately sought by those from which it was stolen. The GM may decide on whether they are closing in on you to such a degree that it becomes a feature of your adventures in the future.</p>",
+        "5-6": "<p><strong>Rumour.</strong> You hear of a rumour about a developing opportunity, or a new type of scam. Details are up to the GM, but some ideas are given on the @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Irryfr7EthG42fzj.JournalEntryPage.XpxqHzvxCAr35b9R#underworld-rumours]{Underworld Rumours} table.</p>",
+        "7-8": "<p><strong>Contraband.</strong> One of your suppliers needs to dump a load of contraband off quickly with no questions asked. If you are agreeable, you may purchase any items from the @UUID[Compendium.wfrp4e-core.journals.JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.4CBQ1HlTC7lj9bFy]{Drugs and Poisons} table in the Consumer Guide for a quarter of its usual value (so a dose of @UUID[Compendium.wfrp4e-core.items.Item.W4X1Jx8AN84yRPDx]{Spit} normally worth 1 GC 5/– would now cost 6/3).</p>",
+        "9-9": "<p><strong>Hidden Finds.</strong> One item contains a pouch or compartment containing hidden treasure. As well as any income you make you may roll twice on @Table[contents-of-purse]{The Contents of a Purse} table.</p>",
+        "10-10": "<p><strong>Cursed Item.</strong> Among the contraband you have been handling is an artefact you'd sooner not have encountered. It could involve warpstone or malign magical energy, and counts as exposure to a @Corruption[moderate]{Moderate Corrupting Influence}.</p>"
+      }
+    },
+    "Grave Robber Income Endeavour Complications": {
+      "name": "Complicaciones en empresa de salario de Ladrón de tumbas",
+      "results": {
+        "1-1": "<p><strong>Haunted.</strong> Unquiet spirits are outraged by your atrocities. Any Undead Creatures with the Ethereal Creature Trait you encounter until the next period of Downtime are also granted the Plague}@UUID[Compendium.wfrp4e-core.items.Item.aE3pyW20Orvdjzj0]{Hatred (Your Character)} Creature Trait.</p>",
+        "2-2": "<p><strong>Shyish.</strong> Though you are likely unaware of it yourself, the Amethyst Wind of Magic coalesces about you. It does not do so in such quantity to affect spellcasting, but anyone with the @UUID[Compendium.wfrp4e-core.items.Item.OEjUvJKi0xmBwbS2]{Second Sight} Talent may perceive it. This effect dissipates by the next period of downtime.</p>",
+        "3-4": "<p><strong>Creepy Customer.</strong> You are approached by a secretive and sinister person who may have work for you in the future. The GM should roll on the @Table[creepy-customer]{Creepy Customer Table} secretly for ideas. It ought to be noted that any potential customer of a Grave Robber demands extreme discretion, whether they are a curious physician or diabolical necromancer.</p>",
+        "5-6": "<p><strong>Lucky Find.</strong> As well as making your usual income you secure an extra prize. Roll once on @Table[crypt-complications]{The Crypt Complications} table, ignoring details other than any loot you secure.</p>",
+        "7-8": "<p><strong>A Favour Owed.</strong> You think you've gotten away with your crimes when you are contacted by a person who insinuates that they know what you are up to. They may call in a Major Favour in time, as the price of keeping your crimes a secret.</p>",
+        "9-9": "<p><strong>Bad Dreams.</strong> You are plagued by nightmares, maybe sent by Morr himself. Between now and the next period of downtime, the GM may call on you to make a <strong>Challenging (+0) Cool</strong> Test once every other week. Failure results in you suffering from a @Condition[Fatigued]{Fatigued} Condition.</p>",
+        "10-10": "<p><strong>Rich Pickings.</strong> As well as making your usual income, you lift a couple of interesting items. Roll twice on @Table[crypt-complications]{The Crypt Complications} table, ignoring details other than any loot that you manage to secure.</p>"
+      }
+    },
+    "Incriminating Artefact": {
+      "name": "Incriminating Artefact",
+      "description": "",
+      "results": {
+        "2-2": "<p><b>Chunk of Warpstone.</b> Kept in a lead-lined case, the stone is a Moderate Corrupting Influence and worth 3 GC.</p>",
+        "3-4": "<p><b>Silver Badge.</b> The badge displays the symbol of a profane cult or proscribed god, such as Khaine, Stromfels, or one of the Gods of Chaos. Ownership of this artefact may be criminal in itself. It is worth 6/8 to the right buyer.</p>",
+        "5-5": "<p><b>Seditionary Tract.</b> A pamphlet espousing revolutionary ideals, such as the satirical poems of Altdorf ’s Kloszowskiites, or the radical social reforms proposed by Middenheim’s New Millennialists.</p>",
+        "6-6": "<p><b>Mysterious Document.</b> This small scroll contains some sort of secret written in a complex cipher. They could be the notes of a spying organisation, such as Marienburg’s Fog Walkers, or an assassin’s contract.</p>",
+        "7-9": "<p><b>Laughing Powder.</b> [[/r 1d10]] doses. Also called @UUID[Compendium.wfrp4e-core.items.Item.jTFOrokjEHbi12rT]{Ranald's delight}. Each dose may be sold for 18/–.</p>",
+        "10-12": "<p><b>Hot Item.</b> The victim is in possession of a sapphire ring worth 5/–. However, they themself acquired this ring through sharp practice, dodgy dealing, or theft.</p>",
+        "13-15": "<p><b>Silver Badge.</b> The badge is worth 6/8. It displays the symbol of a gang with marked violent or criminal tendancies, such as Altdorf ’s Hooks or Fish, and people may hate or fear those who display such a sign of affiliation.</p>",
+        "16-17": "<p><b>Bone Relic.</b> Whilst this may be nothing more than a grisly trophy, perhaps it was intended for a necromantic rite.</p>",
+        "18-18": "<p><b>Mysterious Vial.</b> This small glass jar contains a strange liquid. It may be nothing more than a shot of exotic spirit, but may be a @UUID[Compendium.wfrp4e-wom.journals.JournalEntry.x6OdswRIafU9qGYs.JournalEntryPage.4k3qbP7drfV1mIdr#catalogue-of-potions]{magical potion}.</p>",
+        "20-20": "<p><b>Wayshard.</b> These large gemstones contain the soul essence of dead Elves. Whilst they can aid navigation, Elves do not trust them in the hands of others, but may reward those who return it to them.</p>",
+        "19-19": "<p><b>Vial of @UUID[Compendium.wfrp4e-core.items.Item.qfd01sggD9xbCuJY]{Black Lotus}.</b> 2 doses of the poison prepared for use as Blade Venom.</p>"
+      }
+    },
+    "Monolith Table": {
+      "name": "Monolith Table",
+      "description": "",
+      "results": {
+        "1-3": "<p><b>Simple Marker.</b> Whilst the stone is impressive, it is really nothing more than an ancient boundary marker or ritual site. There is nothing peculiar about the stone.</p>",
+        "4-5": "<p><b>Beastman Herdstone.</b> The monolith is a profane artefact raised by Beastmen. Within 20 yards of the Herdstone spellcasters using the Lore of Dark Magic or any Chaos Lore benefit from +1 SL to Casting Tests and +1 SL Channelling Tests. During the evening there is a 10% chance that the stone attracts Beastmen visitors (a Beastman Shaman with [[/r 1d10]] Gors and Ungors as followers) who howl and bray throughout the night and make profane offerings upon it. They will not take kindly to the Characters interfering with their holy site. The Herdstone is a source of Minor Exposure to Corruption. More detail about Herdstones can be found in Winds of Magic.</p>",
+        "6-6": "<p><b>Ogham Circle.</b> The monolith is part of an ancient circle created by followers of the Old Faith long before the coming of Sigmar. Within 20 yards of the circle, spellcasters using the Lore of Life or Lore of Hedgecraft benefit from +1 SL to Casting Tests and +1 SL Channelling Tests. More detail about Ogham Circles can be found in Winds of Magic.</p>",
+        "7-8": "<p><b>Elven Waystone.</b> The monolith is part of the network of stones set up by the Elves thousands of years ago to help channel excess magical energy to the centre of Ulthuan. Roll [[/r 1d10]] to determine what form of magical energy is channelled by the stone.</p><ul><li>1: Lore of Light,</li><li>2: Lore of Metal,</li><li>3: Lore of Life,</li><li>4: Lore of Heavens,</li><li>5: Lore of Shadows,</li><li>6: Lore of Death,</li><li>7: Lore of Fire,</li><li>8: Lore of Beasts,</li><li>9: Roll again to generate two Lores,</li><li>10: Roll again to generate three Lores.</li></ul><p>Within 20 yards of the Waystone spellcasters using the relevant Lore benefit from +1 SL to Casting Tests and +1 SL Channelling Tests. More detail about Waystones can be found in Winds of Magic.</p>",
+        "9-9": "<p><b>Grave Marker.</b> The stone marks the grave of an important individual from ancient times. A nearby entrance leads to an Ancient Tomb. See the @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.xq3g1ukhk4RFHNSF.JournalEntryPage.2leXDE9eGgGpVVlC#ancient-tombs] for more information.</p>",
+        "10-10": "<p><b>Orc Totem.</b> The monolith has been desecrated by Orcs or Goblins, decorated with crude carvings, and besmirched with dung. During the evening there is a 10% chance that the stone attracts a group of [[/r 1d10]] Orcs and Goblins who come to celebrate their victories and praise their gods. If the GM has access to Tribes and Tribulations, they will be led by a Shaman. They will attack any Characters at the site.</p>"
+      }
+    },
+    "Outlaw Chief Traits — Goal": {
+      "name": "Outlaw Chief Traits — Goal",
+      "description": "",
+      "results": {
+        "1-1": "<p><b>Retirement:</b> Accumulate enough money to leave the criminal life.</p>",
+        "2-2": "<p><b>Avoid Capture:</b> Evade the authorities. Death before surrender.</p>",
+        "3-3": "<p><b>Grand Larceny:</b> Perform only the biggest heists. No minor robberies.</p>",
+        "4-4": "<p><b>Organised Crime:</b> Pursue ventures in smuggling, racketeering or fraud.</p>",
+        "5-5": "<p><b>Political Resistance:</b> Fight the ruling nobles, rouse a peasant revolt.</p>",
+        "6-6": "<p><b>Build Camp:</b> Fortify and expand their camp to a colony, establish a forest haven.</p>",
+        "7-7": "<p><b>Legendary Status:</b> Build a legacy that lasts for generations.</p>",
+        "8-8": "<p><b>Rule Fiefdom:</b> Become a bandit king, by usurping a king or claiming new turf.</p>",
+        "9-9": "<p><b>Spread Mayhem:</b> Disrupt the peace. Revel in victims’ fear and despair.</p>",
+        "10-10": "<p><b>Dark Purpose:</b> Win favour of a Chaos god or immortality by necromancy.</p>"
+      }
+    },
+    "Outlaw Chief Traits — Outlaw Band": {
+      "name": "Outlaw Chief Traits — Outlaw Band",
+      "description": "",
+      "results": {
+        "1-1": "<p><b>Petty Hooligans:</b> Young and inexperienced. Easily routed.</p>",
+        "2-2": "<p><b>Squabbling Crooks:</b> No cohesion. Squabbles more than it robs.</p>",
+        "3-3": "<p><b>Sneaky Brigands:</b> Clever ambush tactics. Uses secret signs and decoys.</p>",
+        "4-4": "<p><b>Jolly Companions:</b> Jokes and merriment, members are friends.</p>",
+        "5-5": "<p><b>Fearsome Raiders:</b> Loots and burns farms and takes hostages.</p>",
+        "6-6": "<p><b>Gentleman Robbers:</b> Non-violent highwaymen. Only steals from rich travellers.</p>",
+        "7-7": "<p><b>Shady Hoodlums:</b> Loiters around inns and taverns staking out targets.</p>",
+        "8-8": "<p><b>Crafty Swindlers:</b> Uses fake identities for heists or confidence scams.</p>",
+        "9-9": "<p><b>Roving Marauders:</b> Travels the wilds robbing anyone they find.</p>",
+        "10-10": "<p><b>Hardened Cutthroats:</b> Kills innocents to avoid leaving witnesses.</p>"
+      }
+    },
+    "Outlaw Chief Traits — Reputation": {
+      "name": "Outlaw Chief Traits — Reputation",
+      "description": "",
+      "results": {
+        "1-1": "<p><b>Cautious:</b> Avoids heavily armed targets, plans for every contingency.</p>",
+        "2-2": "<p><b>Daring:</b> Puts themself at risk, with daylight robberies on hard targets.</p>",
+        "3-3": "<p><b>Elusive:</b> Escapes the law with ease. Camp is well hidden and mobile.</p>",
+        "4-4": "<p><b>Connected:</b> Legal immunity through a deal with a noble.</p>",
+        "5-5": "<p><b>Popular:</b> Well-liked by outlaws, local peasantry, or even law enforcement.</p>",
+        "6-6": "<p><b>Extravagant:</b> Throws lavish feasts and parties, and spends loot on luxuries.</p>",
+        "7-7": "<p><b>Reckless:</b> Leaves tracks or evidence, outlaws are frequently arrested.</p>",
+        "8-8": "<p><b>Disciplined:</b> Imposes strict rules. Monitors loot closely and runs a tight camp.</p>",
+        "9-9": "<p><b>Ruthless:</b> Often resorts to murder. Kills their followers to set examples.</p>",
+        "10-10": "<p><b>Dark Bargain:</b> Deals with sorcery or ruinous powers. Band is a cult.</p>"
+      }
+    },
+    "Outlaw Income Endeavour Complications": {
+      "name": "Complicaciones en empresa de salario de Forajido",
+      "results": {
+        "1-1": "<p><b>Bandit Casualty.</b> One of your fellow Outlaws is slain or badly hurt in the operation. If you are merely a Brigand or Outlaw this has no effect, but if you are an Outlaw Chief or Bandit King it means a henchman has been hurt, caught, or slain.</p>",
+        "2-2": "<p><b>Dangerous Neighbours.</b> During your activities you hear of a group patrolling near your camp. These could be roving Orcs, a band of Elves seeking to protect the forest, or a determined Road Warden patrol. If this group isn’t dealt with you must move on and set up somewhere new before you can take more Income Endeavours.</p>",
+        "3-4": "<p><b>Fugitive in the Woods.</b> You perform the Income Endeavour, but to escape with your earnings you must spend time hiding out in the wilds of the Old World until the heat dies down. You may not partake in any other Endeavours during this period of Downtime.</p>",
+        "5-6": "<p><b>Lucky Find.</b> In addition to securing your usual income you make an extra find. Roll once on @Table[contents-of-purse]{The Contents of a Purse Table}.</p>",
+        "7-8": "<p><b>Bandit King Takes Notice.</b> Word of the Outlaw’s activities reaches the ear of a local Bandit King. This individual desires favours or financial contributions. If they aren’t paid off they may lead their forces against any bandit gang who operates in their area.</p>",
+        "9-9": "<p><b>Bounty Hunter.</b> A Bounty Hunter has taken up a warrant to bring you to justice, dead or alive. This hunter must be faced before the next period of Downtime. The GM could introduce them into the adventure at some point, making dealing with them an integral part of the plot. If they wish, the hunter could be faced by the outlaw Character alone before resolving events in the next period of Downtime.</p>",
+        "10-10": "<p><b>Stand and Deliver.</b> In addition to making your usual income you lift a couple of interesting items. Roll twice on @Table[contents-of-purse]{The Contents of a Purse Table}.</p>"
+      }
+    },
+    "Outlaw Traits — Crime": {
+      "name": "Outlaw Traits — Crime",
+      "description": "",
+      "results": {
+        "1-1": "<p><b>Contempt of Court:</b> Failure to appear for trial, roll again for original crime.</p>",
+        "2-2": "<p><b>Tax Evasion:</b> Failure to pay taxes to the local noble or city council.</p>",
+        "3-3": "<p><b>Debt Evasion:</b> Failure to repay debt to a bank, business, or moneylender.</p>",
+        "4-4": "<p><b>Theft:</b> Major robbery (over 50 GC) or a string of petty thefts.</p>",
+        "5-5": "<p><b>Murder:</b> Killing in cold blood. If rolled again, it was multiple murders.</p>",
+        "6-6": "<p><b>Arson:</b> Burning down buildings. If rolled again, it was serial arson.</p>",
+        "7-7": "<p><b>Major Blasphemy:</b> Impious speech or action drawing the wrath of the gods.</p>",
+        "8-8": "<p><b>Heresy:</b> Speaking false of the gods or clergy publicly and for personal gain.</p>",
+        "9-9": "<p><b>Perversion:</b> Action belying corruption: bodysnatching, kidnapping, cannibalism.</p>",
+        "10-10": "<p><b>Mark of Chaos:</b> Physical mutation or evidence of witchery.</p>"
+      }
+    },
+    "Outlaw Traits — Motive": {
+      "name": "Outlaw Traits — Motive",
+      "description": "",
+      "results": {
+        "1-1": "<b>Basic Survival:</b> Food, shelter, and sanctuary from the law.",
+        "2-2": "<b>Wealth:</b> Gold &amp; silver coin, jewellery, anything that can be sold for value.",
+        "3-3": "<b>Excitement:</b> Danger and thrill of the chase, and narrow escapes from the law.",
+        "4-4": "<b>Freedom:</b> Wanderlust and a lack of responsibilities. Sleeping under the stars.",
+        "5-5": "<b>Camaraderie:</b> Campfire jokes and stories, to escape from the loneliness.",
+        "6-6": "<b>Wantonness:</b> Alcohol, drugs, vandalism, or indulgences of the flesh.",
+        "7-7": "<b>Notoriety:</b> Local or regional infamy, often appearing on wanted posters.",
+        "8-8": "<b>Vindication:</b> Pardon by courts or revenge against judge, noble, or accuser.",
+        "9-9": "<b>Aspirant Chief:</b> Usurp the chief or become chief of a new outlaw band.",
+        "10-10": "<b>Dark Secret:</b> Undercover mutant, witch, heretic, necromancer, or sorcerer."
+      }
+    },
+    "Outlaw Traits — Personality": {
+      "name": "Outlaw Traits — Personality",
+      "description": "",
+      "results": {
+        "1-1": "<p><b>Furtive:</b> Quiet and solitary, holding their cards close to their chest.</p>",
+        "2-2": "<p><b>Idealistic:</b> Opinionated and outspoken, but their ideas are rarely realistic.</p>",
+        "3-3": "<p><b>Charming:</b> Friendly and sociable, usually to acquire something they want.</p>",
+        "4-4": "<p><b>Conniving:</b> Always has a new scheme, and often tricks other outlaws in the band.</p>",
+        "5-5": "<p><b>Resourceful:</b> Has a solution for every problem. Useful contacts outside the band.</p>",
+        "6-6": "<p><b>Loyal:</b> Reports all rule breaches to the chief, good candidate for lieutenant.</p>",
+        "7-7": "<p><b>Paranoid:</b> Trusts nobody. Sleeps with one eye open and a dagger in hand.</p>",
+        "8-8": "<p><b>Selfish:</b> Disobedient or unreliable on jobs. Argues over loot sharing.</p>",
+        "9-9": "<p><b>Uncouth:</b> Dirty, vulgar, or unmannered. Causes problems with civilians.</p>",
+        "10-10": "<p><b>Violent:</b> Has anger or trauma issues. Snaps easily and uses excessive force.</p>"
+      }
+    },
+    "Quality of Relationship": {
+      "name": "Quality of Relationship",
+      "description": "",
+      "results": {
+        "1-1": "<p><strong>Chilly.</strong> The Contact does not much like the Character. They work for them, grudgingly, but have particular feelings towards them beyond a source of occasional opportunities. If interrogated, they would give up the Character’s name to save their own skin.</p>",
+        "2-3": "<p><strong>Iffy.</strong> The Character can generally trust in the Contact’s information or services, but from time to time they prove unreliable. The contact has no warm regard for the Character.</p>",
+        "4-7": "<p><strong>Average.</strong> The bonds between the Character and Contact are dependable. The Character can trust the Contact, but they won’t risk themselves on behalf of the Character.</p>",
+        "8-9": "<p><strong>Good.</strong> The Contact is genuinely friendly towards the Character. They may even help out without the Character specifically asking for it.</p>",
+        "10-10": "<p><strong>Solid.</strong> The Contact regards the Character warmly. They will always try to help the Character out, and will never willingly betray them.</p>"
+      }
+    },
+    "Quality of Service": {
+      "name": "Quality of Service",
+      "description": "",
+      "results": {
+        "1-1": "<p><strong>Dreadful.</strong> The Contact’s services are of low quality. Information they provide may prove false, and their lockpicks shatter at inconvenient moments. If they’re a fence, they have trouble finding buyers for stolen goods. If they provide a safe house, that shelter is uncomfortable, and if they help to store a stash, that room may be flooded or burgled. The Contact is so inept that they might soon be arrested for their own crimes.</p>                     <p>To represent their general incompetence, if the Contact is statted out, Tests they take suffer from a penalty of -2 SL. If not, take Tests on a score of 25.</p>",
+        "2-3": "<p><strong>Poor.</strong> The Contact’s services are of mediocre quality. They are capable, but mediocre. The information they provide is mostly correct, but lacks detail. Equipment from contacts like these is practical, but imprecise. Forged documents and artworks pass a quick inspection, but are discovered as false by anyone who takes the time to look closely. The watch may already be suspicious of the Contact.</p>                     <p>To represent their mediocrity, if the Contact is statted out, Tests they take suffer from a penalty of -2 SL. If not, take Tests on a score of 35.</p>",
+        "4-7": "<p><strong>Fair.</strong> The Contact’s services are fair. A forger of this level will produce forgeries that can pass a decent inspection, a fence pays a decent price for stolen goods, and any information they provide is broadly accurate.</p>",
+        "8-9": "<p><strong>Superior.</strong> The Contact’s services are of superior quality. A forger of this level produces forgeries that pass close inspection, a fence is able to pay a premium for the goods sold to them, and information they provide is comprehensive.</p>                     <p>To represent their general competence, if the Contact is statted out, Tests they take benefit from a bonus of +1 SL. If not, take Tests on a score of 55.</p>",
+        "10-10": "<p><strong>Awesome.</strong> This Contact’s services are top-notch. Their information is accurate, and includes relevant information that hadn’t even been asked for. The equipment they sell is of superior quality. Their hiding places are secure, and luxurious to boot.</p>                     <p>To represent their prodigal skills, if the Contact is statted out, Tests they take benefit from a bonus of +2 SL. If not, take Tests on a score of 65.</p>"
+      }
+    },
+    "Ruin Table": {
+      "name": "Ruin Table",
+      "description": "",
+      "results": {
+        "2-2": "<p><b>Witch’s Lair.</b> A Witch is using the ruin as a hideout. Their abilities are left to the GM, but they should at least have the Channelling and Language (Magick) skills of [[/r 35+4d10]], 4 Petty Spells, and 4 Spells from the Lore of Witchcraft. The Witch is not necessarily hostile towards the Characters, but will be cautious with them, and quick to defend themself if they are not dealt with diplomatically.</p>",
+        "3-3": "<p><b>Ruined Trading Post.</b> The ruin was once a trading post but hasn’t been used for many centuries. If it is explored a Character who passes an Extended <b>Challenging (+0) Perception</b> to a total of 15 SL may find coins and trinkets to a total of [[/r 1d10]] GC.</p>",
+        "4-5": "<p><b>Frontier Outpost.</b> The ruins have recently been settled by a band of people looking to make a new life for themselves or exploit a local resource. They may be small scale farmers or shepherds, wood cutters, a Strigany caravan, or simply subsisting on fish and young bog octopi. These folk are likely insular and may represent a community with radical religious beliefs or political ideas. They are more likely to deal with travellers with chilly formality than overt hostility.</p>",
+        "6-7": "<p><b>Snotlings.</b> The ruins are infested by a band of [[/r 2d10]] Snotlings and the stench of their dung permeates the area. In daylight hours they are terrified of the Characters and hide from them rather than fight. At night, they become bolder and seek to creep into any nearby camp to steal food and shiny items. If they are confronted, they cannot be reasoned with and fight for their lives. If their den is discovered it comtains a selection of coins and trinkets worth [[/r 5d10]] Silver Shillings.</p>",
+        "8-14": "<p><b>Rubble.</b> There is nothing of note here other than a few piles of scattered stones.</p>",
+        "15-16": "<p><b>Sound Structure.</b> Amongst the ruins is a sound building that affords the Characters the opportunity to rest for the night. If the Characters stay here any Make Camp Endeavour beneifts from +5 SL.</p>",
+        "17-18": "<p><b>Bandit Camp.</b> The ruins house a band of 6–8 Outlaws. To determine how much loot they have in their possession roll twice on the loot column of the @Table[ancient-tomb]{Ancient Tomb Table}.</p>",
+        "19-19": "<p><b>Trolls.</b> The ruins are inhabited by a trio of Trolls. They have smeared the stones of the ruin with blood and filth and piles of bones and bits of battered equipment lie all around. Roll [[/r 1d10]]. 1–3: The Trolls are home and will fight the Characters unless provided with a creature of Size: Average or larger to eat. 4–5: The Trolls are starving, reduce Strength and Toughness by 20, all other Characteristics by 10, and Wounds by [[/r 3D10]]. 6–7: The Trolls are home and will fight Characters to the death. 8–9: The Trolls are absent, but each round there is a 3% chance that they will return. 10: The Trolls are absent. To determine whether there is anything of value in the ruin roll twice on the loot column of the @Table[ancient-tomb]{Ancient Tomb Table}.</p>",
+        "20-20": "<p><b>Wizard’s Tower.</b> These famed constructions do not necessarily need to be a tower, as different schools of wizardry are attracted to different types of terrain, and construct their dwellings in different ways. A Celestial Wizard is likely to dwell in a tall tower in the mountains, while a Jade one prefers a verdant glade deep within the forest. Many wizards prefer secluded locations away from mundane folk and the trivia of their everyday lives. Here they can get on with diligent magical research unhindered by the powers that be, and even the authorities of their own college. Although this is a reasonable aspiration, there might be a more nefarious reason behind their chosen isolation. Some wizards choose isolation to quietly follow the Dark Gods, or research methods of wielding proscribed power. These often pose with the trappings of more legitimate schools to help keep them from the suspicion of those who do stumble upon their dwelling. If the Characters do suspect a wizard of malpractice, then they may be better off keeping that to themselves. The Wizard’s college and abilities are left to the GM, but they should at least have the Channelling and Language (Magick) skills of [[/r 35+4d10]], 4 Petty Spells, and 4 Lore Spells. The wizard might view the arrival of the Characters as a good opportunity. They are likely to need something from civilisation, and it would be a great help to them if the Characters agreed to fetch it.</p>"
+      }
+    },
+    "The Contents of a Purse": {
+      "name": "The Contents of a Purse",
+      "description": "",
+      "results": {
+        "2-2": "<p><b>Something Incriminating.</b> The victim carries an item of value, but it is dangerous or incriminating and the pickpocket may prefer not to be in possession of it. Roll on the @Table[incriminating-artefact]{Incriminating Artefact table}.</p>",
+        "3-4": "<p><b>Moths.</b> The purse contains nothing.</p>",
+        "5-6": "<p><b>Out of Pocket.</b>The victim possesses a single coin determined by their Status.</p>",
+        "7-7": "<p><b>Set of Bone Dice.</b> This pair of dice is worth 10d.</p>",
+        "8-9": "<p><b>Taffeta Handkerchief.</b> A fine handkerchief worth 1/–. Roll [[/r 1d10]], on a 5 or more, the item is monogrammed.</p>",
+        "10-12": "<p><b>Payday.</b> The victim carries twice as much money as they normally would.</p>",
+        "13-13": "<p><b>Silver Ring with Griffon Decoration.</b> This piece of jewellery is worth 3/–.</p>",
+        "14-14": "<p><b>Silk Handkerchief.</b> A fine silk handkerchief worth 3/6. Roll [[/r 1d10]], on a 5 or more, the item is monogrammed.</p>",
+        "15-15": "<p><b>Leather Gloves.</b> A pair of well made gloves worth 4/–.</p>",
+        "16-16": "<p><b>Ruby Ring.</b> A silver ring set with a red precious stone worth 5/–.</p>",
+        "17-17": "<p><b>Silver Hammer Badge.</b> A small but intricate badge declaring the wearer's devotion to Sigmar worth 6/8.</p>",
+        "18-18": "<p><b>Big Spender.</b> As well as coins equal to double the owner’s Status, add a further [[/r 1d10]] coins.</p>",
+        "19-19": "<p><b>Bottle of Perfume.</b> A small glass bottle with a silver stopper, containing a musky fluid worth 10/–.</p>",
+        "20-20": "<p><b>String of Miraglianese Pearls.</b> This necklace is a loop of pearls harvested from the Tilean Sea worth 10/–.</p>"
+      }
+    },
+    "Victim Quirk": {
+      "name": "Victim Quirk",
+      "description": "",
+      "results": {
+        "2-2": "<p><strong>Already Acquainted.</strong> The victim is vaguely familiar with the Character, having met them before or having witnessed their previous antics. The degree to which they know the Character is left to the GM, and the Character may take a <strong>Hard (-20) Perception</strong> Test to spot the flicker of recognition on their face.</p>",
+        "3-3": "<p><strong>Uncanny Ability.</strong> The victim possesses a preternatural ability that makes stealing from them complicated. Perhaps they are a scryer with the @UUID[Compendium.wfrp4e-wom.items.Item.GxfrW2whVdNJABVQ]{Psychometry} Skill, a seer, or an apprentice wizard or witch.</p>",
+        "4-4": "<p><strong>Friends in Low Places.</strong> The victim has friends in the criminal underworld or pays to a protection racket. The mob will not be happy to learn that their friend has been made a victim of a crime (that they didn’t profit from).</p>",
+        "5-5": "<p><strong>Amputated Part.</strong> Illness or injury has resulted in a lost or functionless body part. Roll [[/r 1d10]]. 1–3: Leg, 4–6: Arm, 7–8: Eyes, 9: Tongue, 10: Ears.</p>",
+        "6-6": "<p><strong>Dummy Purse.</strong> The victim has encountered Pickpockets before and wears a conspicuous purse which contains two pennies. They keep coins of larger denominations stuffed into their sock or hat band. Roll a further [[/r 1d10]]. On a 1, the mark has been so vindictive as to leave a poisoned needle in the dummy purse, inflictng a @Condition[Poisoned]{Poisoned} Condition on anyone who takes the dummy purse and fails a <strong>Challenging (+0) Perception</strong> Test.</p>",
+        "7-7": "<p><strong>Unsuspecting.</strong> You’d feel bad, if they weren’t making this so easy. Their @UUID[Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB]{Perception} Tests suffer a penalty of -1 SL.</p>",
+        "8-8": "<p><strong>Intoxicated.</strong> The victim has drunk too much ale or eaten some weirdroot. Roll on the @Table[stinking-drunk]{Stinking Drunk table} or apply the effects of @UUID[Compendium.wfrp4e-core.items.Item.b6tGqvNe1jYBdeN5]{Weirdroot}.</p>",
+        "9-9": "<p><strong>Veteran.</strong> The victim was once a state trooper of the Empire. Apply the @UUID[Compendium.wfrp4e-core.items.Item.9NROryHer1uXAKwY]{Elite} Creature Trait.</p>",
+        "10-10": "<p><strong>Tough Customer.</strong> You might not like to tangle with this fellow. Apply the @UUID[Compendium.wfrp4e-core.items.Item.15ENOMf345S5AL68]{Brute} Creature Trait.</p>",
+        "11-11": "<p><strong>Cautious.</strong> Most folk in the Empire know that criminals prey upon unwary customers in taverns or filtch items from unguarded market stalls. Provide the victim with a Fortune point that can be spent on rerolling any one Test that might prevent them from falling victim to a criminal act.</p>",
+        "12-12": "<p><strong>Quick Witted.</strong> This victim is cool and smart. Apply the @UUID[Compendium.wfrp4e-core.items.Item.Ni4hNAPv3LhTpgMA]{Clever} Creature Trait.</p>",
+        "13-13": "<p><strong>Feeling Peaky.</strong> The victim is coming down with the @UUID[Compendium.wfrp4e-core.items.Item.UAwTqZ3hqNb7vq9s]{Itching Pox}. On approaching the mark the Character must pass an <strong>Average (+20) Perception</strong> Test to notice telltale blisters before they get too close.</p>",
+        "14-14": "<p><strong>Future Patron.</strong> The victim may be a person who is in a position to offer the Pickpocket a job in the future, or who might prove to supply vital assistance or information in a forthcoming adventure.</p>",
+        "15-15": "<p><strong>This One’s Jittery.</strong> Getting the better of the victim is tricky. Their @UUID[Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB]{Perception} Tests benefit from +1 SL.</p>",
+        "16-16": "<p><strong>Cutpurse.</strong> The victim also indulges in petty larceny. Perhaps the Pickpocket will be robbed in turn.</p>",
+        "17-17": "<p><strong>Friends in High Places.</strong> The victim may not be particularly wealthy or powerful themself, but they have connections to those who are. Maybe they are a servant in a noble household, or something more exotic like the thrall of a Vampire, a spy for another nation, or a member of a Chaos cult. This may provide added attractions to those seeking to exploit them but would also mean the victim may be able to find assistance in gaining redress.</p>",
+        "18-18": "<p><strong>Vengeful.</strong> This victim is highly motivated to take revenge on anyone who steals from them. When they become aware that they have become the victim of a crime, they devote a surprising amount of energy and resources in finding out who stole from them and seeing them brought to justice. Dwarf victims may be considered to be like this by default.</p>",
+        "19-19": "<p><strong>Diseased.</strong> The victim is in the early stages of @UUID[Compendium.wfrp4e-core.items.Item.aKiuGzlVO51JvsjV]{the Black Plague} and infested with fleas. On approaching the victim, the Character must pass a <strong>Challenging (+0) Percpetion</strong> Test to notice symptoms and avoid a test for contraction.</p>",
+        "20-20": "<p><strong>Mutant.</strong> The victim is a mutant. Their mutation is concealed under their clothing, but may become obvious to a Pickpocket during the attempt to steal from them. Roll [[/r 1d10]]: 1–2: @UUID[Compendium.wfrp4e-core.items.Item.op4GKikIQee7JMXw]{Animalistic Legs}, 3–4: @UUID[Compendium.wfrp4e-core.items.Item.iLZcSRUbxKBecACZ]{Corpulent}, 5–6: @UUID[Compendium.wfrp4e-core.items.Item.dsYDcdQfJGc7wxSX]{Emaciated}, 7–8: @UUID[Compendium.wfrp4e-core.items.Item.u5lMTKaOsZfiE3p0]{Extra Leg Joints}, 9–10: @UUID[Compendium.wfrp4e-core.items.Item.ArCg0WaBxLgPQA8F]{Patchy Feathers}.</p>"
+      }
+    },
+    "Watch Presence": {
+      "name": "Watch Presence",
+      "description": "",
+      "results": {
+        "1-2": "<p><b>Attention Elsewhere.</b> There are no Watchmen in the vicinity. If a hue and cry is raised it will take 20 minutes or more for a patrol to arrive</p>",
+        "3-5": "<p><b>Round the Block.</b> The nearest watch patrol is a few streets away. If a hue and cry is raised it will take 20 Rounds or more for a patrol to arrive.</p>",
+        "6-8": "<p><b>Patrol in the Vicinity.</b> There is a watch patrol within 100 yards of the location. If a crime is committed in a public area a Watchman may spot it on an <b>Opposed Very Hard (-30) Perception/Stealth</b>Very . If a hue and cry is raised it will take 10 Rounds for a patrol to arrive.</p>",
+        "9-9": "<p><b>Patrol Nearby.</b> There is a watch patrol within 50 yards of the location. If a crime is committed in a public area a Watchman may spot it on an <b>Opposed Difficult (-10) Perception/Stealth</b>. If a hue and cry is raised it will take 5 Rounds for a patrol to arrive.</p>",
+        "10-10": "<p><b>Patrol Present.</b> There is clearly a patrol either in the same street, or right outside the location in question. If a crime is committed within their line of sight a Watchman may spot it on an <b>Opposed Average (+20) Perception/Stealth</b>. If a hue and cry is raised the patrol responds immediately.</p>"
+      }
+    },
+    "Weather – Precipitation": {
+      "name": "Weather – Precipitation",
+      "description": "",
+      "results": {
+        "1-5": "None",
+        "6-8": "Light",
+        "9-10": "Heavy",
+        "11-12": "Very Heavy",
+        "13-13": "Heavy",
+        "14-14": "None"
+      }
+    },
+    "Weather – Temperature": {
+      "name": "Weather – Temperature",
+      "description": "",
+      "results": {
+        "1-1": "Sweltering",
+        "2-2": "Hot",
+        "3-8": "Comfortable",
+        "9-12": "Chilly",
+        "13-14": "Bitter"
+      }
+    },
+    "Weather – Visibility": {
+      "name": "Weather – Visibility",
+      "description": "",
+      "results": {
+        "1-5": "Clear",
+        "6-8": "Mist",
+        "9-10": "Thick Fog",
+        "11-13": "Mist",
+        "14-14": "Clear"
+      }
+    },
+    "Weather – Wind": {
+      "name": "Weather – Wind",
+      "description": "",
+      "results": {
+        "1-1": "Still",
+        "2-2": "Light",
+        "3-5": "Medium",
+        "6-8": "Strong",
+        "9-10": "Very Strong",
+        "11-12": "Medium",
+        "13-13": "Light",
+        "14-14": "Still"
+      }
+    },
+    "Wilderness Travel Events – Deep Forest": {
+      "name": "Wilderness Travel Events – Deep Forest",
+      "description": "",
+      "results": {
+        "1-5": "<p><strong>Wilderness Event.</strong> Roll on the @Table[wilderness-travel-events]{Wilderness Travel Events Table 1 - Light Woodland, Hills and Temperate Plains}.</p>",
+        "6-6": "<p><strong>Bloodsedge Grove.</strong> The Characters wander into an area within which Bloodsedge bushes grow. These predatory plants grasp and strangle prey with their thorny branches. A Character can identify (and avoid) Bloodsedge by passing an <strong>Easy (+40) Lore (Herbs)</strong> or <strong>Challenging (+0) Outdoor Survival</strong>. If the GM has access to a copy of Lustria the rules for Grasping Creeper Vine could be used in place of Bloodsedge. Otherwise, the Characters must cross an area of [[/r 3d10]] Yards, making a <strong>Hard (-20) Dodge</strong> every Round they spend in the area. Any time a Character fails the Test they take a Damage 5 Hit to a randomly determined location.</p>",
+        "7-7": "<p><strong>Herbs.</strong> The Characters cross a glade within which valuable herbs grow. These plants can be identified by passing an <strong>Easy (+40) Lore (Herbs)</strong> Test. The herbs may be @UUID[Compendium.wfrp4e-core.items.Item.b6tGqvNe1jYBdeN5]{Weirdroot} or @UUID[Compendium.wfrp4e-core.items.Item.wgFj3lFhCuO8OeDb]{Moonflower} from the <strong>WFRP Core Rulebook</strong>, or any of the @UUID[Compendium.wfrp4e-dotr.journals.JournalEntry.JhZ4qkEf569rEcsY]{Herbs} described in the <strong>Death on the Reik Companion</strong>.</p>",
+        "8-8": "<p><strong>Spites.</strong> This area of the forest is plagued by @UUID[Compendium.wfrp4e-salzenmund.actors.Actor.WCg8r2VwNIRehLZJ]{Spites}. If the GM has access to <strong>Salzenmund: City of Salt and Silver</strong> they could use the rules presented there to represent the @UUID[Compendium.wfrp4e-salzenmund.journals.JournalEntry.jSPXWkAU3a9CI1FB]{Spites}. If not, each Character is unable to sleep soundly whilst in the area and must take a @Condition[Fatigued]{Fatigued} Condition that lasts until they make a successful @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.xq3g1ukhk4RFHNSF.JournalEntryPage.YF6OGH5E8oLTde07#recuperate-endeavour]{Recuperate Endeavour}.</p>",
+        "9-9": "<p><strong>Spiders.</strong> The Characters come across the lair of 4–6 Giant Spiders. Most of these creatures will be @UUID[Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q]{Size (Small)}, but one will be Size: Large. The spiders will seek to attack and entangle the Characters and will fight to the death.</p>",
+        "10-10": "<p><strong>Enemies Encountered.</strong> A small group of enemies crosses the Characters’ path. In the forests of the Reikland suitable enemies may be tribes of Forest Goblins, a herd of Beastmen consisting of Ungors and Gors, or a band of Outlaws.</p>"
+      }
+    },
+    "Wilderness Travel Events – Light Woodland, Hills and Temperate Plains": {
+      "name": "Wilderness Travel Events – Light Woodland, Hills and Temperate Plains",
+      "description": "",
+      "results": {
+        "1-1": "<p><strong>Pathway Blocked.</strong> A lake, river, or gorge blocks the Characters’ path. It is impossible to navigate around using mundane means, so unless the Characters possess some means to fly over and engineer their way across, they must find another route, adding a further two stages to their journey.</p>",
+        "2-2": "<p><strong>Barrow.</strong> The Characters pass by a series of eerie standing stones surrounding a small hill. Any Character passing an <strong>Easy (+40) Lore (History)</strong> or <strong>Lore (Local)</strong> Test will recognise this as a barrow. See the Ancient Tomb Table (page 121) for more information.</p>",
+        "3-3": "<p><strong>Monolith.</strong> The Characters notice a large single standing stone or ancient circle of menhirs. See the page on @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.xq3g1ukhk4RFHNSF.JournalEntryPage.2leXDE9eGgGpVVlC#monolith]{Monoliths} for more information.</p>",
+        "4-4": "<p><strong>Ruin.</strong> The Characters notice the remains of old buildings as they pass by. See the page on @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.xq3g1ukhk4RFHNSF.JournalEntryPage.2leXDE9eGgGpVVlC#crumbling-ruin]{Ruins} for more information.</p>",
+        "5-5": "<p><strong>Ailing Animal.</strong> Randomly select one of the animals accompanying the party. This animal is ailing. If a member of the party passes a <strong>Hard (-20) Animal Care</strong> there is no effect. If not impose the penalties for a @UUID[Compendium.wfrp4e-core.items.Item.kKccDTGzWzSXCBOb]{Festering Wound} to the animal. If this result is generated a second time for the same animal, it passes away.</p>",
+        "6-6": "<p><strong>Worn Out Item.</strong> A piece of equipment suffers wear and tear. Randomly determine a Character and one of their trappings. If a member of the party passes a <strong>Hard (-20) Trade (Carpenter, Leather Worker, Tailor, or Smith)</strong> Test there is no effect. If not, a metal item gains the @Prop[shoddy]{Shoddy} Flaw or an item of leather, canvas, or wood falls apart.</p>",
+        "7-7": "<p><strong>Fellow Travellers.</strong> The Characters spot a band of fellow travellers ahead of them. These travellers may be avoided or approached. The travellers are a group of 4–6 Pedlars or Villagers. Use the @Table[victim-quirk]{Victim Quirk Table} to help determine how they might behave. For the profiles of the travellers, use the @UUID[Compendium.wfrp4e-dslf.actors.Actor.xOMceDSC4pxIjQcR]{Outlaw}.</p>",
+        "8-8": "<p><strong>Spring.</strong> Clear, fresh water bubbles from the ground. The party may replenish their stocks of water as if they succeeded a @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.xq3g1ukhk4RFHNSF.JournalEntryPage.w5XYNzkXObxeBzFD#water-endeavour]{Water Endeavour} with no need to test.</p>",
+        "9-9": "<p><strong>Animals Encountered.</strong> A pack of 6 wolves or pair of bears forage not far from the Characters. They are unlikely to make an aggressive moves against a group, but may trail the party and attack a straggler or stray pack animal.</p>",
+        "10-10": "<p><strong>Enemies Encountered.</strong> A small group of 4–6 enemies crosses the Characters’ path. In the hillsides, light woodlands, and temperate plains of the Reikland suitable enemies may be tribes of Goblins, herds of Ungors, or a band of @UUID[Compendium.wfrp4e-dslf.actors.Actor.xOMceDSC4pxIjQcR]{Outlaws}.</p>"
+      }
+    },
+    "Wilderness Travel Events – Mountains": {
+      "name": "Wilderness Travel Events – Mountains",
+      "description": "",
+      "results": {
+        "1-5": "<p><strong>Wilderness Event.</strong> Roll on the @Table[wilderness-travel-events]{Wilderness Travel Events Table 1 - Light Woodland, Hills and Temperate Plains}.</p>",
+        "6-6": "<p><strong>Mountain Sickness.</strong> This sometimes afflicts those travelling at high altitudes before they can get used to the lack of oxygen in the air. Characters should make a <strong>Challenging (+0) Endurance</strong> or be subject to @UUID[Compendium.wfrp4e-dslf.items.Item.b9CyizYEyH9wjY9p]{Mountain Sickness}. Ogres, Dwarfs, and animals that are used to life at high altitude do not need to test for Mountain Sickness.</p>",
+        "7-7": "<p><strong>Scree Slope.</strong> The Characters path is blocked by a steep slope of small loose stones. They can either cross or add two stages to the journey. If they cross each member must pass a <strong>Challenging (+0) Athletics</strong>. Those who fail suffer a fall of [[/r 1d10]] yards. Quadrupeds, such as mounts and pack animals, benefit from +2 SL when taking this test.</p>",
+        "8-8": "<p><strong>Blizzard.</strong> The weather changes dramatically for the worse. Refer to the @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.xq3g1ukhk4RFHNSF.JournalEntryPage.yLVf0rmOShW3kqFI]{Weather Rules} and apply the following factors: <strong>Temperature:</strong> Bitter, <strong>Precipitation:</strong> Very Heavy, <strong>Visibility:</strong> Thick Fog, <strong>Wind:</strong> Very Strong. Once the stage is complete reroll the weather conditions as the blizzard abates.</p>",
+        "9-9": "<p><strong>Beast Lair.</strong> The Characters come across the lair of a monstrous beast. In the mountains of the Reikland this is likely to be a Griffon, but it may be a Manticore, Pegasus, or Wyvern. Roll [[/r 1d10]].</p><ul><li>1–3: The beast is home and possesses the Territorial Trait, it will attack the Characters as long as they are within 50 yards of the lair.</li><li>4–5: The beast is starving, reduce Strength and Toughness by 20, all other Characteristics by 10, and Wounds by [[/r 3d10]].</li><li>6–7: The beast is home and will fight Characters to the death.</li><li>8–9: The beast is absent, but in each round, there is a 3% chance that it will return.</li><li>10: The beast is absent.</li></ul><p>To determine whether there is anything of value in the lair roll twice on the loot column of the @Table[ancient-tomb]{Ancient Tomb Table}.</p>",
+        "10-10": "<p><strong>Enemies Encountered.</strong> A small group of enemies crosses the Characters’ path. In the mountains of the Reikland suitable enemies may be tribes of Orcs and Goblins, a band of Outlaws, or a pair of Stone Trolls.</p>"
+      }
+    },
+    "Wilderness Travel Events – Wetlands": {
+      "name": "Wilderness Travel Events – Wetlands",
+      "description": "",
+      "results": {
+        "1-5": "<p><strong>Wilderness Event.</strong> Roll on the @Table[wilderness-travel-events]{Wilderness Travel Events Table 1 - Light Woodland, Hills and Temperate Plains}.</p>",
+        "6-6": "<p><strong>Swamp Fever.</strong> This is transmitted by bites from creatures like bog leeches and sea slugs. The bites often go unnoticed, especially when the victim is wading through murky swamp water. The disease is characterised by a painful, raw, red patch around the bite and sudden bouts of @UUID[Compendium.wfrp4e-dslf.items.Item.mr0lSbpT4bHhXycF]{Swamp Fever}.</p>",
+        "7-7": "<p><strong>Quick Mud.</strong> The area of the swamp is particularly treacherous, with soft mud flats that threaten to engulf any travellers who stray into it. The Characters can either skirt the mudflats by adding two stages to their journey, or risk crossing them. To cross the mudflats each Character and accompanying animal must make an Extended <strong>Challenging (+0) Strength</strong> to a total of 15 SL. If any fumbles are generated in the test the Character in question must test for @UUID[Compendium.wfrp4e-core.journals.JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#drowning-and-suffocation]{Suffocation} and start the process from the start to escape the mud flats. Characters may only assist their companions in these tests if they have already escaped the hazard.</p>",
+        "8-8": "<p><strong>Foul Air.</strong> The Characters wander into an area of suffocating gas. The gas pocket is [[/r 2d10]] yards long and anyone crossing must make an <strong>Average (+20) Endurance</strong> each turn or suffer the effects. This is like becoming drunk, so refer to the rules for @UUID[Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e]{Consume Alcohol}, (though it is the Endurance Test, rather than a Consume Alcohol Test, that must be passed to avoid impairment). If a Character passes out within the gas pocket they must be rescued or succumb to the gas and die in TB rounds. A point of Resilience may be spent in order to escape the gas pocket. Once free of the area an <strong>Average (+20) Endurance</strong> may be made every 5 minutes: the effects wear off once this test is passed. There is no hangover.</p>",
+        "9-9": "<p><strong>Beast Lair.</strong> The Characters come across the lair of a monstrous beast.</p>",
+        "10-10": "<p><strong>Enemies Encountered.</strong> A small group of enemies crosses the Characters’ path. In the wetlands of the Reikland, suitable enemies may be a band of six Goblins, a pair of River Trolls, or a band of three Fimir.</p>"
+      }
+    },
+    "Willingness to Take a Bribe — Integrity": {
+      "name": "Willingness to Take a Bribe — Integrity",
+      "description": "",
+      "results": {
+        "1-2": "Incorruptable",
+        "3-8": "Pliable",
+        "9-10": "Venal"
+      }
+    },
+    "Willingness to Take a Bribe — Price": {
+      "name": "Willingness to Take a Bribe — Price",
+      "description": "",
+      "results": {
+        "1-2": "<p>Does not take bribes</p>",
+        "3-8": "<p><b>Trivial:</b> Status<br /><b>Moderate:</b> Status times 3<br /><b>Serious:</b> Status times 5 <br /><b>Henious:</b> Will not take bribes</p>",
+        "9-10": "<p><b>Trivial:</b> Status<br /><b>Moderate:</b> Status times 2<br /><b>Serious:</b> Status times 4 <br /><b>Henious:</b> Status times 10</p>"
+      }
+    }
+  }
+}

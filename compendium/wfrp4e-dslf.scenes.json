@@ -1,0 +1,14 @@
+{
+  "label": "Escenas (Pasos ágiles y Manos largas)",
+  "mapping": {
+    "image": "background.src"
+  },
+  "entries": {
+    "Hunting Lodge": {
+      "name": "Cabaña de caza"
+    },
+    "Reikland": {
+      "name": "Reikland"
+    }
+  }
+}

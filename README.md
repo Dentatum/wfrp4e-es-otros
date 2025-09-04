@@ -1,7 +1,8 @@
 Traducción fan en español para otros suplementos de WFRP4.
 
 ## Contenido
-- *Pasos ligeros y Manos largas* [En proceso].
+- *Noches agitadas y Días difíciles*.
+- *Pasos ágiles y Manos largas* [En proceso].
 - *El Zoo Imperial* [En proceso].
 
 ## Requisitos

@@ -1,0 +1,103 @@
+{
+  "label": "Actores (Pasos ágiles y Manos largas)",
+  "mapping": {
+    "species": "system.details.species.value",
+    "hit": "system.details.hitLocationTable.value",
+    "wounds": "flags.autoCalcWounds",
+    "status": "system.details.status.value",
+    "notes": "system.details.biography.value",
+    "gmnotes": "system.details.gmnotes.value",
+    "description": "system.details.description.value",
+    "biography": "system.details.biography.value",
+    "gender": {
+      "path": "system.details.gender.value",
+      "converter": "bestiary_gender"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    }
+  },
+  "folders": {
+    "Contacts": "Contactos",
+    "Hunting animals": "Caza de animales",
+    "Laws, Outlaws, and Bounty Hunters": "Leyes, Criminales, y Cazarrecompensas"
+  },
+  "entries": {
+    "A Typical Bounty Hunter": {
+      "name": "Cazarrecompensas típico",
+      "tokenName": "Cazarrecompensas"
+    },
+    "Albrecht ‘the Fish’": {
+      "name": "Albrecht ‘el Pez’",
+      "tokenName": "El Pez"
+    },
+    "Arabyan Redhawk": {
+      "name": "Halcón rojo de Arabia",
+      "tokenName": "Halcón rojo"
+    },
+    "August Sternwachter": {},
+    "Bawd": {
+      "name": "Chalán",
+      "tokenName": "Chalán"
+    },
+    "Brunner": {},
+    "Charlatan": {
+      "name": "Charlatán",
+      "tokenName": "Charlatán"
+    },
+    "Dove Hawk": {
+      "name": "Halcón tórtola",
+      "tokenName": "Halcón tórtola"
+    },
+    "Father Pedragar": {
+      "name": "Padre Pedragar",
+      "tokenName": "Padre Pedragar"
+    },
+    "Fence": {
+      "name": "Perista",
+      "tokenName": "Perista"
+    },
+    "Forger": {
+      "name": "Falsificador",
+      "tokenName": "Falsificador"
+    },
+    "Grootscher Marsh Hound": {
+      "name": "Mastín de la Ciénaga Grootscher",
+      "tokenName": "Mastín"
+    },
+    "Gunna von Sperren": {},
+    "Hochland Lockhund": {
+      "name": "Teckel de Hochland",
+      "tokenName": "Teckel"
+    },
+    "Nordlander Bamse": {
+      "name": "Bamse nordlandés",
+      "tokenName": "Bamse"
+    },
+    "Outlaw": {
+      "name": "Forajido",
+      "tokenName": "Forajido"
+    },
+    "Outlaw Chief": {
+      "name": "Forajido jefe",
+      "tokenName": "Forajido jefe"
+    },
+    "Racketeer": {
+      "name": "Pandillero",
+      "tokenName": "Pandillero"
+    },
+    "Safe House Owner (Townsman)": {
+      "name": "Dueño de guarida (Ciudadano)",
+      "tokenName": "Dueño de guarida"
+    },
+    "Watch Sergeant": {
+      "name": "Guardia, sargento",
+      "tokenName": "Guardia, sargento"
+    },
+    "Watchman": {
+      "name": "Guardia",
+      "tokenName": "Guardia"
+    }
+  }
+}

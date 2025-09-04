@@ -1,0 +1,383 @@
+{
+  "label": "Objetos (Pasos ágiles y Manos largas)",
+  "mapping": {
+    "gmdescription": "system.gmdescription.value",
+    "skills": "system.skills",
+    "talents": "system.talents",
+    "class": {
+      "path": "system.class.value",
+      "converter": "career_class"
+    },
+    "careergroup": {
+      "path": "system.careergroup.value",
+      "converter": "career_careergroup"
+    },
+    "trappings": "system.trappings",
+    "penalties": {
+      "path": "system.penalty.value",
+      "converter": "trappings_penalty"
+    },
+    "range": {
+      "path": "system.range.value",
+      "converter": "spells_duration_range_target"
+    },
+    "special": "system.special.value",
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    },
+    "wounds": {
+      "path": "system.wounds.value",
+      "converter": "criticals_wounds"
+    },
+    "location": {
+      "path": "system.location.value",
+      "converter": "criticals_location"
+    },
+    "duration": "system.duration.value",
+    "contraction": "system.contraction.value",
+    "incubation": "system.incubation.value",
+    "incubation_duration": {
+      "path": "system.incubation.unit",
+      "converter": "disease_units"
+    },
+    "incubation_text": "system.incubation.text",
+    "diseases_duration": {
+      "path": "system.duration.unit",
+      "converter": "disease_units"
+    },
+    "symptoms": "system.symptoms.value",
+    "permanent": "system.permanent.value",
+    "spell_duration": {
+      "path": "system.duration.value",
+      "converter": "spells_duration_range_target"
+    },
+    "target": {
+      "path": "system.target.value",
+      "converter": "spells_duration_range_target"
+    },
+    "damage": {
+      "path": "system.damage.value",
+      "converter": "spells_damage"
+    },
+    "lore": {
+      "path": "system.lore.value",
+      "converter": "lore"
+    },
+    "overcast": "system.overcast.label",
+    "overcastvaluevalue": "system.overcast.valuePerOvercast.additional",
+    "overcastinitialvalue": "system.overcast.initial.additional",
+    "injury_location": {
+      "path": "system.location.value",
+      "converter": "injuries_location"
+    },
+    "penalty": "system.penalty.value",
+    "injury_duration": {
+      "path": "system.duration.value",
+      "converter": "injuries_duration"
+    },
+    "modifier": "system.modifier.value",
+    "roll": "system.rollable.skill",
+    "specification": {
+      "path": "system.specification.value",
+      "converter": "traits_specification"
+    },
+    "tests": "system.tests.value"
+  },
+  "folders": {
+    "Burglar": "Ratero",
+    "Careers": "Carreras",
+    "Deceiver": "Embaucador",
+    "Diseases": "Enfermedades",
+    "Embezzler": "Malversador",
+    "Forger": "Falsificador",
+    "Gambler-Priest": "Sacerdote-Tahúr",
+    "Gamekeeper": "Guardabosques",
+    "Gamester": "Jugador",
+    "Liberator-Priest": "Sacerdote-Libertador",
+    "Miracles": "Milagros",
+    "Muleskinner": "Arriero",
+    "Night Prowler": "Merodeador Nocturno",
+    "Pickpocket": "Carterista",
+    "Poacher": "Cazador furtivo",
+    "Protector": "Protector",
+    "Ranger-Priest of Taal": "Sacerdote-Explorador de Taal",
+    "Taal": "Taal",
+    "Thief-Priest": "Sacerdote-Ladrón",
+    "Traits": "Rasgos",
+    "Trappings": "Accesorios",
+    "Trickster-Priest": "Sacerdote-Estafador"
+  },
+  "entries": {
+    "A Suitable Sucker": {
+      "name": "A Suitable Sucker"
+    },
+    "Arabyan Redhawk": {
+      "name": "Arabyan Redhawk"
+    },
+    "Auroch’s Heart": {
+      "name": "Auroch’s Heart"
+    },
+    "Back at You": {
+      "name": "Back at You"
+    },
+    "Bag of Soot": {
+      "name": "Bag of Soot"
+    },
+    "Bag of Tarrabeth Seed": {
+      "name": "Bag of Tarrabeth Seed"
+    },
+    "Bamboozle": {
+      "name": "Bamboozle"
+    },
+    "Bountiful Fortune": {
+      "name": "Bountiful Fortune"
+    },
+    "Caltrops": {
+      "name": "Caltrops"
+    },
+    "Caravan Guide": {
+      "name": "Caravan Guide"
+    },
+    "Caravan Master": {
+      "name": "Caravan Master"
+    },
+    "Cat Burglar": {
+      "name": "Cat Burglar"
+    },
+    "Champion Poacher": {
+      "name": "Champion Poacher"
+    },
+    "Class War": {
+      "name": "Class War"
+    },
+    "Counterfeiter": {
+      "name": "Counterfeiter"
+    },
+    "Crampons": {
+      "name": "Crampons"
+    },
+    "Crisis of Confidence": {
+      "name": "Crisis of Confidence"
+    },
+    "Distant Sounds": {
+      "name": "Distant Sounds"
+    },
+    "Dove Hawk": {
+      "name": "Dove Hawk"
+    },
+    "Driver": {
+      "name": "Driver"
+    },
+    "Earthshudder": {
+      "name": "Earthshudder"
+    },
+    "Force the Hand of Chance": {
+      "name": "Force the Hand of Chance"
+    },
+    "Forger": {
+      "name": "Forger"
+    },
+    "Fraudster": {
+      "name": "Fraudster"
+    },
+    "Free Your Mind": {
+      "name": "Free Your Mind"
+    },
+    "Gambler-Priest": {
+      "name": "Gambler-Priest"
+    },
+    "Gamekeeper": {
+      "name": "Gamekeeper"
+    },
+    "Glass Cutter": {
+      "name": "Glass Cutter"
+    },
+    "Grootscher Marsh Hound": {
+      "name": "Grootscher Marsh Hound"
+    },
+    "Head Gamekeeper": {
+      "name": "Head Gamekeeper"
+    },
+    "High Priest": {
+      "name": "High Priest"
+    },
+    "Hochland Lockhund": {
+      "name": "Hochland Lockhund"
+    },
+    "Hunter's Garb": {
+      "name": "Hunter's Garb"
+    },
+    "Initiate": {
+      "name": "Initiate"
+    },
+    "Liberator-Priest": {
+      "name": "Liberator-Priest"
+    },
+    "Long Reach": {
+      "name": "Long Reach"
+    },
+    "Lord of Misrule": {
+      "name": "Lord of Misrule"
+    },
+    "Lose the Loot": {
+      "name": "Lose the Loot"
+    },
+    "Master Counterfeiter": {
+      "name": "Master Counterfeiter"
+    },
+    "Master Gamekeeper": {
+      "name": "Master Gamekeeper"
+    },
+    "Master Poacher": {
+      "name": "Master Poacher"
+    },
+    "Master Thief": {
+      "name": "Master Thief"
+    },
+    "Master of Chance": {
+      "name": "Master of Chance"
+    },
+    "Moment of Clarity": {
+      "name": "Moment of Clarity"
+    },
+    "Mountain Sickness": {
+      "name": "Mountain Sickness"
+    },
+    "Muleskinner": {
+      "name": "Muleskinner"
+    },
+    "Nature’s Repast": {
+      "name": "Nature’s Repast"
+    },
+    "Nordlander Bamse": {
+      "name": "Nordlander Bamse"
+    },
+    "One Almighty Lie": {
+      "name": "One Almighty Lie"
+    },
+    "Pax of Taal": {
+      "name": "Pax of Taal"
+    },
+    "People’s Champion": {
+      "name": "People’s Champion"
+    },
+    "Perfect Empathy": {
+      "name": "Perfect Empathy"
+    },
+    "Periscope": {
+      "name": "Periscope"
+    },
+    "Poacher": {
+      "name": "Poacher"
+    },
+    "Poor Man’s Face": {
+      "name": "Poor Man’s Face"
+    },
+    "Prowler": {
+      "name": "Prowler"
+    },
+    "Rally Round": {
+      "name": "Rally Round"
+    },
+    "Ranald’s Mischief": {
+      "name": "Ranald’s Mischief"
+    },
+    "Ranger-Priest": {
+      "name": "Ranger-Priest"
+    },
+    "Rending Paw": {
+      "name": "Rending Paw"
+    },
+    "River’s Blessing": {
+      "name": "River’s Blessing"
+    },
+    "Scrumper": {
+      "name": "Scrumper"
+    },
+    "Shadow Prowler": {
+      "name": "Shadow Prowler"
+    },
+    "Silence Reigns": {
+      "name": "Silence Reigns"
+    },
+    "Smoke Bomb": {
+      "name": "Smoke Bomb"
+    },
+    "Steel Mummit": {
+      "name": "Steel Mummit"
+    },
+    "Swamp Fever": {
+      "name": "Swamp Fever"
+    },
+    "Talk Your Way Out": {
+      "name": "Talk Your Way Out"
+    },
+    "Telescopic Pole": {
+      "name": "Telescopic Pole"
+    },
+    "The Gamemaster": {
+      "name": "The Gamemaster"
+    },
+    "The Great Horned Helm": {
+      "name": "The Great Horned Helm"
+    },
+    "The Heat Is Off": {
+      "name": "The Heat Is Off"
+    },
+    "Thief": {
+      "name": "Thief"
+    },
+    "Thief-Priest": {
+      "name": "Thief-Priest"
+    },
+    "Trained (Circle)": {
+      "name": "Trained (Circle)"
+    },
+    "Trained (Dig)": {
+      "name": "Trained (Dig)"
+    },
+    "Trained (Heel)": {
+      "name": "Trained (Heel)"
+    },
+    "Trained (Hunt)": {
+      "name": "Trained (Hunt)"
+    },
+    "Trained (Point)": {
+      "name": "Trained (Point)"
+    },
+    "Trained (Return)": {
+      "name": "Trained (Return)"
+    },
+    "Trained (Round)": {
+      "name": "Trained (Round)"
+    },
+    "Trained (Track)": {
+      "name": "Trained (Track)"
+    },
+    "Trickster-Priest": {
+      "name": "Trickster-Priest"
+    },
+    "Under My Protection": {
+      "name": "Under My Protection"
+    },
+    "Underkeeper": {
+      "name": "Underkeeper"
+    },
+    "Unremembered Face": {
+      "name": "Unremembered Face"
+    },
+    "Up the Stakes": {
+      "name": "Up the Stakes"
+    },
+    "Vice-hierarch": {
+      "name": "Vice-hierarch"
+    },
+    "Wild Wind": {
+      "name": "Wild Wind"
+    },
+    "Wilderness Way": {
+      "name": "Wilderness Way"
+    }
+  }
+}
