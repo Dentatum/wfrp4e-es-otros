@@ -122,10 +122,12 @@
       "name": "Back at You"
     },
     "Bag of Soot": {
-      "name": "Bag of Soot"
+      "name": "Bolsa de hollín",
+      "description": "<p>Se dice que el hollín más fino procede de las fundiciones de cañones de Nuln. Un Personaje puede usar una bolsa de hollín para manchar ropa, equipo y piel expuesta, volviendo las superficies oscuras y mates. Un Personaje cubierto de hollín es más difícil de percibir en la oscuridad. Cualquier Criatura sufre −1 NE a los Chequeos de <strong>Percepción</strong> basados en la vista para localizarlo o distinguir rasgos de su aspecto.</p>"
     },
     "Bag of Tarrabeth Seed": {
-      "name": "Bag of Tarrabeth Seed"
+      "name": "Bolsa de semillas de Tarrabeth",
+      "description": "<p>Aunque el Tarrabeth es una hierba curativa, su semilla es fuerte y dulce y se usa en cocina. A algunos perros ese olor les estimula y distrae, así que los saqueadores la emplean para entretenerlos. Si a un Personaje le siguen el rastro estos animales, puede dejar en su camino una bolsa de semillas. Los perros que se acerquen a 5 yardas deben superar un <strong>Chequeo Normal (+20) de Frialdad</strong>. Quienes fallen pasan [[/r 1d10]] asaltos investigando la bolsa antes de retomar el rastro. Con un <strong>Fracaso Asombroso</strong> (−6 NE o menos), el perro queda tan distraído que olvida el rastro original.</p>"
     },
     "Bamboozle": {
       "name": "Bamboozle"
@@ -134,7 +136,8 @@
       "name": "Bountiful Fortune"
     },
     "Caltrops": {
-      "name": "Caltrops"
+      "name": "Abrojos",
+      "description": "<p>Estos pinchos poliédricos se esparcen a veces en los campos de batalla para entorpecer a la caballería. Un Personaje con abrojos puede usar una Acción para dispersar una docena en el suelo, creando un área peligrosa de 2 yardas de diámetro. Quien entre debe superar un <strong>Chequeo Difícil (−20) de Atletismo</strong> o será alcanzado por los abrojos. Si la Criatura conoce su presencia y avanza al paso, el Chequeo pasa a ser <strong>Normal (+20)</strong>. Quienes fallen sufren un impacto de Daño [[/r 1d10]] en una pierna al azar y ganan el Estado @Condition[Aturdido].</p>"
     },
     "Caravan Guide": {
       "name": "Caravan Guide"
@@ -155,7 +158,8 @@
       "name": "Counterfeiter"
     },
     "Crampons": {
-      "name": "Crampons"
+      "name": "Crampones",
+      "description": "<p>Son estructuras de madera que se ajustan a las botas. Se clavan clavos de herradura para ayudar a escalar superficies empinadas. Llevando crampones, los Chequeos del Personaje tienen estos modificadores:</p>\n<ul>\n    <li>\n        <p>+2 NE a Chequeos de <strong>Escalar </strong>para escalar roca o madera</p>\n    </li>\n    <li>\n        <p>+1 NE a Chequeos de <strong>Escalar </strong>para subir por cuerda</p>\n    </li>\n    <li>\n        <p>−1 NE a Chequeos de <strong>Atletismo</strong> fuera del contexto de escalar</p>\n    </li>\n    <li>\n        <p>−2 NE a Chequeos de <strong>Movimiento silencioso</strong> fuera del contexto de escalar</p>\n    </li>\n    <li>\n        <p>−2 NE a cualquier otro Chequeo que implique movimiento fuera del contexto de escalar (mejor quítatelos antes de intentar tus pasos de baile)</p>\n    </li>\n</ul>"
     },
     "Crisis of Confidence": {
       "name": "Crisis of Confidence"
@@ -191,7 +195,8 @@
       "name": "Gamekeeper"
     },
     "Glass Cutter": {
-      "name": "Glass Cutter"
+      "name": "Cortavidrios",
+      "description": "<p>Una varilla metálica corta con un trozo duro de diamante o de cuernopétreo en la punta. Con un cortavidrios se puede perforar un cristal o trazar un panel que luego se golpea con un mazo. Requiere un <strong>Chequeo Normal (+20) de Arte (Grabado)</strong>.</p>\n<blockquote class=\"sidebar\">\n    <h4 style=\"text-transform:uppercase\" class=\"no-toc sidebar-title\"><em>Tabla de éxito al cortar vidrio</em></h4>\n    <table style=\"text-align:center\">\n        <tbody><tr>\n                <td data-colwidth=\"235\">\n                    <p><em><strong>NE</strong></em></p>\n                </td>\n                <td>\n                    <p><em><strong>Resultado</strong></em></p>\n                </td>\n</tr><tr>\n                <td data-colwidth=\"235\">\n                    <p><em>+1 o más</em></p>\n                </td>\n                <td>\n                    <p><em>El Personaje perfora un orificio o extrae un pequeño panel de vidrio sin complicaciones.</em></p>\n                </td>\n</tr><tr>\n                <td data-colwidth=\"235\">\n                    <p><em>+0</em></p>\n                </td>\n                <td>\n                    <p><em>El Personaje perfora un orificio o extrae un pequeño panel de vidrio. El sonido del vidrio al romperse se oye como si la ventana se hubiera roto de forma normal.</em></p>\n                </td>\n</tr><tr>\n                <td data-colwidth=\"235\">\n                    <p><em>-0</em></p>\n                </td>\n                <td>\n                    <p><em>El Personaje perfora o extrae un pequeño panel de vidrio, pero sufre un impacto de Daño 3 en la mano principal por los cortes.</em></p>\n                </td>\n</tr><tr>\n                <td data-colwidth=\"235\">\n                    <p><em>-1 o menos</em></p>\n                </td>\n                <td>\n                    <p><em>La ventana se hace añicos, haciendo ruido como si se rompiera normalmente. El Personaje sufre un impacto de Daño 3 en la mano principal por los cortes.</em></p>\n                </td>\n</tr></tbody>\n    </table>\n</blockquote>"
     },
     "Grootscher Marsh Hound": {
       "name": "Grootscher Marsh Hound"
@@ -266,7 +271,8 @@
       "name": "Perfect Empathy"
     },
     "Periscope": {
-      "name": "Periscope"
+      "name": "Periscopio",
+      "description": "<p>Ideado por ingenieros Enanos para dar visión a las tripulaciones de sus naves sumergibles, el periscopio usa espejos para permitir asomar la vista tras una esquina o por encima de obstáculos sin exponerse. Un periscopio sencillo puede ser un espejo atado a una varilla corta, pero también existen modelos con dos espejos en ángulo dentro de un armazón resistente. Un Personaje con periscopio puede hacer Chequeos de <strong>Percepción</strong> basados en la vista manteniendo el cuerpo oculto o a cubierto.</p>"
     },
     "Poacher": {
       "name": "Poacher"
@@ -302,10 +308,12 @@
       "name": "Silence Reigns"
     },
     "Smoke Bomb": {
-      "name": "Smoke Bomb"
+      "name": "Bomba de humo",
+      "description": "<p>Consiste en un recipiente metálico o cerámico con un cóctel alquímico, comprimido y con mecha. Se lanza igual que un incendiario, aunque no arde tanto. En su lugar, produce una nube densa de humo, suficiente para llenar una sala grande o un área de 10 yardas de diámetro al aire libre. La nube se mantiene durante [[/r 2d10]] asaltos (el doble en espacios cerrados).</p>\n<p>Los Personajes no pueden ver a través de la nube y, dentro de ella, solo ven a 1 yarda. Además, el humo no es respirable y cualquier Personaje atrapado debe comprobar si sufre @UUID[Compendium.wfrp4e-core.journals.JournalEntry.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#ahogamiento-y-asfixia]{Asfixia} como se describe en el <strong>Libro Básico</strong>. Por tanto, las bombas de humo son eficaces para despejar una sala o cubrir una huida.</p>"
     },
     "Steel Mummit": {
-      "name": "Steel Mummit"
+      "name": "Mummit de acero",
+      "description": "<p>Llamado así por uno de los compañeros legendarios de Ranald, es una fina lámina de acero que se introduce entre la puerta y el marco para intentar hacer palanca sobre el pestillo. Mientras que una palanca fuerza la puerta pese a la cerradura y una ganzúa acciona la cerradura, un Mummit de acero actúa directamente sobre el pestillo con la esperanza de destrabarlo sin tocar el mecanismo. Si la puerta está cerrada con cerradura y llave (no candado) o atrancada, puede abrirse con un <strong>Chequeo Difícil (−20) de Prestidigitación</strong>.</p>\n<blockquote class=\"sidebar\">\n    <h4 style=\"text-transform:uppercase\" class=\"no-toc sidebar-title\"><em>Tabla de éxito con Mummit de acero</em></h4>\n    <table style=\"text-align:center\">\n        <tbody><tr>\n                <td>\n                    <p><em><strong>NE</strong></em></p>\n                </td>\n                <td>\n                    <p><em><strong>Resultado</strong></em></p>\n                </td>\n</tr><tr>\n                <td>\n                    <p><em>+1 o más</em></p>\n                </td>\n                <td>\n                    <p><em>El Personaje acciona el cierre. El proceso no daña cerradura ni pestillo, y la puerta puede volver a cerrarse con llave.</em></p>\n                </td>\n</tr><tr>\n                <td>\n                    <p><em>+0</em></p>\n                </td>\n                <td>\n                    <p><em>El Personaje acciona el cierre, pero el mecanismo o el pestillo queda inservible; quien use la puerta notará que necesita reparación.</em></p>\n                </td>\n</tr><tr>\n                <td>\n                    <p><em>-0</em></p>\n                </td>\n                <td>\n                    <p><em>El Personaje no consigue accionar el cierre.</em></p>\n                </td>\n</tr><tr>\n                <td>\n                    <p><em>-1 o menos</em></p>\n                </td>\n                <td>\n                    <p><em>El Personaje falla y hace ruidos de raspado fácilmente audibles desde estancias contiguas durante el intento.</em></p>\n                </td>\n</tr></tbody>\n    </table>\n</blockquote>"
     },
     "Swamp Fever": {
       "name": "Swamp Fever"
@@ -314,7 +322,8 @@
       "name": "Talk Your Way Out"
     },
     "Telescopic Pole": {
-      "name": "Telescopic Pole"
+      "name": "Pértiga telescópica",
+      "description": "<p>Este bastón parece un simple cayado con empuñadura terminada en gancho, pero puede extenderse hasta convertirse en una pértiga de doce pies. Sirve para manipular objetos a distancia, como destrabar ventanas de un piso superior o alcanzar un manojo de llaves a través de unos barrotes. Un Personaje puede hacer Chequeos de <strong>Destreza</strong> usando la pértiga para manipular objetos hasta a 4 yardas. La pértiga es difícil de manejar, así que cualquier Chequeo realizado con ella sufre −2 NE.</p>"
     },
     "The Gamemaster": {
       "name": "The Gamemaster"

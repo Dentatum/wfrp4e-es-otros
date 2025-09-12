@@ -75,17 +75,17 @@
       }
     },
     "Bawd Income Endeavour Complications": {
-      "name": "Complicaciones en empresa de salario de Chalán",
-      "results": {
-        "1-1": "<p><b>Major Favour Owed.</b> You have seriously failed to exercise discretion. Maybe a wealthy customer was exposed whilst in your care, or you gossiped too much about a local kingpin. You now owe this person a Major Favour.</p>",
-        "2-2": "<p><b>Blackmail.</b> You have recieved a letter threatening to reveal compromising information about you or your customers unless you pay 2 Gold Crowns by the next period of downtime. Details of how to pay, whether the writer has information, and how they can be tracked down is up to the GM.</p>",
-        "3-4": "<p><b>Friend in a Low Place.</b> You are approached by a Fence working for a criminal organisation. They need a buyer for some contraband. If you can help out by the next period of Downtime they may provide a share of the profit.</p>",
-        "5-6": "<p><b>Rumour.</b> You hear of a rumour about an opportunity, or a scam that worked in a foreign city and has yet to be tried locally. Details are up to the GM, but some ideas are given @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Irryfr7EthG42fzj.JournalEntryPage.XpxqHzvxCAr35b9R#underworld-rumours]{Underworld Rumours}.</p>",
-        "7-8": "<p><b>A Favour Owed.</b> You have earned the ire of a customer. They may call in a Moderate Favour in time, as the price for your carelessness.</p>",
-        "9-9": "<p><b>Contact.</b> Your hustling among the underworld puts you in touch with someone who might make for a significant contact. If you take the Contact Endeavour during this period of downtime any Tests you make in the course of the Endeavour benefit from +1 SL.</p>",
-        "10-10": "<p><b>Friend in a High Place.</b> You host an important personage who wishes to take a tour of the local rookeries, perhaps even a countess or lector of the Cult of Sigmar. They may wish to indulge in a vice that might compromise them in the eyes of their peers. You play your part well, and as a result establish a friendly acquaintance with this person.</p>"
-      }
-    },
+    "name": "Complicaciones en Empresa de salario de Chalán",
+    "results": {
+      "1-1": "<p><b>Deuda Mayor.</b> No has sabido ser discreto. Quizá un cliente adinerado fue expuesto mientras estaba a tu cargo, o cotilleaste demasiado sobre un pez gordo local. Ahora debes a esa persona un Favor Mayor.</p>",
+      "2-2": "<p><b>Chantaje.</b> Has recibido una carta que amenaza con revelar información comprometedora sobre ti o tus clientes a menos que pagues 2co en el próximo periodo de inactividad. Cómo pagar, si el escritor tiene realmente la información y cómo rastrearlo queda a discreción del DJ.</p>",
+      "3-4": "<p><b>Amigo en los bajos fondos.</b> Se te acerca un Perista que trabaja para una organización criminal. Necesitan un comprador para contrabando. Si puedes ayudar antes del próximo periodo de inactividad, podrían darte una parte del beneficio.</p>",
+      "5-6": "<p><b>Rumor.</b> Oyes un rumor sobre una oportunidad o un timo que funcionó en una ciudad extranjera y aún no se ha probado aquí. Los detalles quedan al DJ, pero hay ideas en @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Irryfr7EthG42fzj.JournalEntryPage.XpxqHzvxCAr35b9R#rumores-de-los-bajos-fondos]{Rumores de los bajos fondos}.</p>",
+      "7-8": "<p><b>Deuda.</b> Has ganado la antipatía de un cliente. Puede cobrarte un Favor Moderado con el tiempo, como precio por tu descuido.</p>",
+      "9-9": "<p><b>Contacto.</b> Moverte por los bajos fondos te ha puesto en contacto con alguien que podría ser importante. Si realizas la Empresa de <em>Contactos</em> en este periodo de inactividad, cualquier Chequeo que hagas durante dicha Empresa obtiene +1 NE.</p>",
+      "10-10": "<p><b>Amigo en las Altas Esferas.</b> Atiendes a un personaje importante que quiere darse un paseo por los arrabales, quizá una condesa o un lector del culto de Sigmar. Puede que desee entregarse a un vicio que lo comprometería ante sus pares. Cumples bien tu papel y, como resultado, estableces una relación amistosa con esa persona.</p>"
+    }
+  },
     "Bounty Hunter Warrants — Outlaw Crimes": {
       "name": "Bounty Hunter Warrants — Outlaw Crimes",
       "description": "",
@@ -135,7 +135,7 @@
       }
     },
     "Burglar, Pickpocket, Thief Income Endeavour Complications": {
-    "name": "Complicaciones en empresa de salario de Saqueador, Carterista y Ladrón",
+    "name": "Complicaciones en Empresa de salario de Saqueador, Carterista y Ladrón",
     "results": {
       "1-1": "<p><strong>Los ranaldanos toman nota.</strong> Un grupo local que venera a Ranald, el Merodeador Nocturno, se entera de tus andanzas. Podrían ser buenos aliados si respetas el código de Ranald, pero si los ofendes pueden confundirte con engaños y bromas pesadas.</p>",
       "2-2": "<p><strong>En el punto de mira.</strong> Has atraído más atención de la que te gustaría. Aunque la Guardia de la ciudad está más por mantener la paz que por investigar delitos, el Culto de Verena patrocina investigadores dedicados. La próxima vez que entres en un periodo entre aventuras, se te aplica el Evento <em>Bajo sospecha</em> antes de determinar nada más.</p>",
@@ -147,16 +147,16 @@
     }
   },
     "Charlatan Income Endeavour Complications": {
-      "name": "Complicaciones en empresa de salario de Charlatán",
+      "name": "Complicaciones en Empresa de salario de Charlatán",
       "results": {
-        "1-1": "<p><strong>Ranaldans Take Note.</strong> A local group devoted to Ranald the Deceiver learn of your scams. They could make good confederates if you abide by the Ranaldan code, but if you don't they may target you for their own thefts and tricks.</p>",
-        "2-2": "<p><strong>Tragic Customer.</strong> One of your customers puts too much faith in your false promises and a tragedy results. Maybe they rely on your quack medicine over other medical assistance or believe that a phoney relic protects them from harm. The exact nature of this tragedy and its ramifications are left to the GM, but at the very least there are friends of the customer who will be furious if they discover who is to blame.</p>",
-        "3-4": "<p><strong>Fanatical Customer.</strong> One of your customers is convinced that you work miracles. Perhaps they made a full recovery from ghoulpox after drinking your snake oil or experienced a prophetic dream upon buying your blessed tin comet pendant. Now, they are devoted to you to an embarrassing degree, following you and proclaiming your genius. How this develops is up to the GM. It may help you find more customers but may also attract unwanted attention.</p>",
-        "5-6": "<p><strong>Rumour.</strong> You hear of a rumour about an opportunity, or a scam that has yet to be tried locally. Details are up to the GM, but some ideas are given @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Irryfr7EthG42fzj.JournalEntryPage.XpxqHzvxCAr35b9R#underworld-rumours]{Underworld Rumours}.</p>",
-        "7-8": "<p><strong>Long Con.</strong> Your scams are arousing interest, but customers are cautious. If you are careful and patient, this could pay out. You gain no money from the Income Endeavour this time. However, if you take an Income Endeavour during the next period of downtime and succeed, you make [[/r 1d10]] times the normal amount of money.</p>",
-        "9-9": "<p><strong>Potential Confederate.</strong> You are approached by a petty thief who insinuates that they know what you are up to and would like to help by providing distractions. If you hire them, you must pay a shilling retainer at the start of subsequent periods of downtime. In future, when taking an Income Endeavour roll [[/r 1d10]]. On a 1 to 9, you earn 20% extra as a result of the confederate's help. On a 10, they abscond with all the money earned.</p>",
-        "10-10": "<p><strong>Kingpin Takes Notice.</strong> Your crimes have come to the notice of an underworld boss. If you don't cooperate with them, they might make your life difficult. See @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.CezQBybX47Mx7Fdt]{Organised Crime} for some ideas about kingpins.</p>"
-      }
+      "1-1": "<p><strong>Los ranaldanos toman nota.</strong> Un grupo local devoto de Ranald el Embaucador se entera de tus timos. Podrían ser buenos compinches si respetas el código ranaldano; si no, podrían señalarte como objetivo de sus propios robos y tretas.</p>",
+      "2-2": "<p><strong>Cliente trágico.</strong> Uno de tus clientes deposita demasiada fe en tus falsas promesas y se produce una tragedia. Tal vez confía en tu medicina milagrosa en lugar de recibir otra ayuda médica, o cree que un falso relicario lo protege del daño. La naturaleza exacta y sus consecuencias quedan al DJ pero, como mínimo, habrá amigos furiosos si descubren al culpable.</p>",
+      "3-4": "<p><strong>Cliente fanático.</strong> Uno de tus clientes está convencido de que haces milagros. Quizá se recuperó de la infección de un necrófago tras beber tu aceite de serpiente o tuvo un sueño profético al comprar tu colgante de cometa de estaño bendecido. Ahora te venera de forma embarazosa, te sigue y proclama tu genio. Cómo evoluciona queda al DJ: puede traerte más clientes o atención indeseada.</p>",
+      "5-6": "<p><strong>Rumor.</strong> Oyes un rumor sobre una oportunidad o un timo que aún no se ha intentado aquí. Los detalles quedan al DJ, pero hay ideas en @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Irryfr7EthG42fzj.JournalEntryPage.XpxqHzvxCAr35b9R#rumores-de-los-bajos-fondos]{Rumores de los bajos fondos}.</p>",
+      "7-8": "<p><strong>Timo a largo plazo.</strong> Tus timos despiertan interés, pero los clientes van con cautela. Si actúas con cuidado y paciencia, puede merecer la pena. Esta vez no ganas dinero con la Empresa de Salario. Sin embargo, si en el próximo periodo de inactividad haces una Empresa de Salario y tiene éxito, obtienes [[/r 1d10]] veces la cantidad normal.</p>",
+      "9-9": "<p><strong>Posible compinche.</strong> Se te acerca un raterillo que insinúa que sabe a lo que te dedicas y quiere ayudarte proporcionando distracción. Si lo contratas, debes pagarle una señal de un chelín al inicio de los periodos entre aventuras. En el futuro, cuando hagas una Empresa de Salario, tira [[/r 1d10]]. Con 1–9, ganas un 20% extra gracias a su ayuda. Con 10, huye con todo el dinero.</p>",
+      "10-10": "<p><strong>Un pez gordo se fija en ti.</strong> Tus delitos han llamado la atención de un jefe de los bajos fondos. Si no cooperas, podría ponerte las cosas difíciles. Consulta @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.CezQBybX47Mx7Fdt]{Crimen Organizado} para ideas sobre cabecillas.</p>"
+    }
     },
     "Contact Development": {
       "name": "Contact Development",
@@ -192,37 +192,35 @@
         "10-10": "<b>Galloping Trots:</b> Make an <b>Average (+20) Endurance</b> or contract the @UUID[Compendium.wfrp4e-core.items.Item.txeLd7R13qxSvmsr]{Galloping Trots}."
       }
     },
-    "Corpse Complications": {
-      "name": "Corpse Complications",
-      "description": "",
-      "results": {
-        "2-2": "<p><b>Presumptive Interment.</b> The corpse is not dead! Whoever it was who was placed in the grave was only apparently dead as the result of a deep stupor or episode of catalepsy. They may have profoundly mixed feelings about being rescued from their premature burial by a criminal who sells corpses.</p>",
-        "3-3": "<p><b>Stirring Cadaver.</b> Rites of Morr have not been thoroughly effective when it comes to this corpse. This may mean that the corpse spontaneously manifests as a zombie if it is exposed to a corrupting influence, or if a magical miscast occurs in its vicinity.</p>",
-        "4-7": "<p><b>Suffuse with Shyish.</b> The corpse is suffused with Shyish, which those with Second Sight can perceive gathering around the body in a sombre amethyst cloud. Any successful attempts to cast spells from the Lore of Death within 8 yards of the corpse gain +1 SL. This bonus may be claimed only once, no matter how many sources in the vicinity are suffused with Shyish.</p>",
-        "8-14": "<p><b>Familiar Face.</b> The body is in fine condition but may be rather more recognisable than you had anticipated. Anyone who knew this person in life would have no problem recognising their corpse.</p>",
-        "15-17": "<p><b>Bloated Corpse.</b> Even though the cadaver may be the remains of someone who died recently, it is decomposing with shocking rapidity, becoming bloated and producing a foul stink. If the customer is expecting a fresh corpse, they will not be impressed.</p>",
-        "18-19": "<p><b>Ransacked Remains.</b> The corpse had its internal organs removed before you got to it. If a customer is expecting a corpse with internal organs, they will be disappointed.</p>",
-        "20-20": "<p><b>Stirring Spirit.</b> Rites of Morr have not been thoroughly effective with this corpse. Its spirit may return to trouble the Grave Robber as a Ghost, which may keep haunting them until its body is given a respectful burial once more.</p>"
-      }
-    },
-    "Creepy Customer": {
-      "name": "Creepy Customer",
-      "description": "",
-      "results": {
-        "2-2": "<p><b>Necrarch Vampire.</b> A powerful Vampire with mastery over necromantic powers contacts the Grave Robber through a wretched servant intermediary.</p>",
-        "3-4": "<p><b>Cannibal Fiend.</b> This customer could be on their way to becoming a Ghoul but may seek to keep such creatures fed for reasons of their own.</p>",
-        "5-6": "<p><b>Necromancer.</b> Looking to improve their mastery of necromantic magic, such people are in constant need of corpses.</p>",
-        "7-9": "<p><b>Intriguer.</b> This person wants to put a body to a political end. They may wish to pin a murder on a rival or use news of a death in service of a cause.</p>",
-        "10-12": "<p><b>Corrupt Physician.</b> This surgeon wishes to better understand the workings of the Human body. They pay for fresh, undamaged bodies only.</p>",
-        "13-15": "<p><b>Dubious Scholar.</b> A dusty academic seeks to improve their knowledge of anatomy.</p>",
-        "16-17": "<p><b>Fugitive.</b> This person wishes to use a body to fake a death so that they, a family member, or a client can start up a new life elsewhere.</p>",
-        "18-19": "<p><b>Mad Mage.</b> This is likely an Amethyst Wizard looking to harvest Shyish, but may be a Gold Wizard looking for alchemical components, or a witch looking for ingredients for their rituals.</p>",
-        "20-20": "<p><b>Daemonologist.</b> Whilst living sacrifices make the best ingredients for the pacts of daemonology, worshippers use body parts for petty favours.</p>"
-      }
-    },
+  "Corpse Complications": {
+    "name": "Complicaciones del cadáver",
+    "description": "",
+    "results": {
+      "2-2": "<p><b>Inhumación prematura.</b> ¡El cadáver no está muerto! Quien fuera enterrado solo parecía muerto por un sopor profundo o un episodio de catalepsia. Puede tener sentimientos muy encontrados sobre ser “rescatado” de su entierro prematuro por un criminal que vende cadáveres.</p>",
+      "3-3": "<p><b>Cadáver que se agita.</b> Los ritos de Morr no han sido del todo eficaces con este cuerpo. Esto puede implicar que el cadáver se manifieste espontáneamente como zombi si queda expuesto a una influencia corruptora, o si ocurre una Disfunción mágica en sus cercanías.</p>",
+      "4-7": "<p><b>Bañado en <em>Shyish</em>.</b> El cadáver está impregnado de <em>Shyish</em>, algo que quienes tienen <i>Clarividencia</i> perciben como una sombría nube amatista alrededor del cuerpo. Cualquier intento exitoso de lanzar hechizos del <b>Saber de la Muerte</b> a 8 yardas o menos del cadáver gana +1 NE. Este bonificador solo puede reclamarse una vez, sin importar cuántas fuentes cercanas estén saturadas de Shyish.</p>",
+      "8-14": "<p><b>Rostro familiar.</b> El cuerpo está en buen estado, pero puede resultar mucho más reconocible de lo previsto. Cualquiera que conociera a esta persona en vida no tendría problemas para reconocer su cadáver.</p>",
+      "15-17": "<p><b>Cadáver hinchado.</b> Aunque sean restos de alguien fallecido recientemente, se descompone con rapidez alarmante, hinchándose y desprendiendo un hedor nauseabundo. Si el cliente espera un cadáver “fresco”, no quedará impresionado.</p>",
+      "18-19": "<p><b>Restos eviscerados.</b> Alguien extrajo los órganos internos antes de que llegaras. Si el cliente espera un cadáver con vísceras intactas, quedará decepcionado.</p>",
+      "20-20": "<p><b>Espíritu inquieto.</b> Los ritos de Morr no han sido plenamente efectivos con este cadáver. Su espíritu puede regresar para atormentar al Ladrón de tumbas como un <b>Espectro</b>, que seguirá acosándolo hasta que el cuerpo reciba de nuevo un entierro respetuoso.</p>"
+    }
+  },
+  "Creepy Customer": {
+    "name": "Cliente siniestro",
+    "results": {
+      "2-2": "<p><b>Necrarca.</b> Un poderoso Vampiro, maestro de las artes nigrománticas, contacta con el Ladrón de tumbas a través de un miserable sirviente intermediario.</p>",
+      "3-4": "<p><b>Engendro Infernal caníbal.</b> Este cliente podría estar camino de convertirse en un Necrófago, pero quizá prefiera mantener bien alimentadas a esas criaturas por motivos personales.</p>",
+      "5-6": "<p><b>Nigromante.</b> Desea perfeccionar su dominio de la magia nigromántica y necesita un suministro constante de cadáveres.</p>",
+      "7-9": "<p><b>Urdidor.</b> Quiere utilizar un cuerpo con fines políticos. Puede intentar cargar un asesinato a un rival o aprovechar la noticia de una muerte al servicio de una causa.</p>",
+      "10-12": "<p><b>Físico corrupto.</b> Este cirujano busca comprender mejor el funcionamiento del cuerpo humano. Solo paga por cuerpos frescos y sin daños.</p>",
+      "13-15": "<p><b>Erudito de dudosa reputación.</b> Un académico polvoriento que pretende mejorar su conocimiento de la anatomía.</p>",
+      "16-17": "<p><b>Fugitivo.</b> Quiere usar un cuerpo para fingir una muerte y que él, un familiar o un cliente puedan empezar una nueva vida en otro lugar.</p>",
+      "18-19": "<p><b>Mago enloquecido.</b> Probablemente un Mago Amatista que busca cosechar <em>Shyish</em>, aunque también puede ser un Mago Dorado tras componentes alquímicos o una bruja necesitada de ingredientes para sus rituales.</p>",
+      "20-20": "<p><b>Demonólogo.</b> Aunque los sacrificios vivos son los mejores ingredientes para los pactos de demonología, sus seguidores emplean partes de cuerpos para favores menores.</p>"
+    }
+  },
     "Criminal Events": {
       "name": "Criminal Events",
-      "description": "",
       "results": {
         "1-4": "<p><strong>Watch - Good Crooks And Bad Constables</strong> – The Watch has been taken over by a corrupt commander who has started muscling in on the organisation’s territory. To keep up, the Character must undertake at least one Income Endeavour during this downtime period but receives only 50% of the income. If they do not do this, they may not make any @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.oVncgdl1rKl1S1cx#maintain-influence]{Maintain Influence} or @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.oVncgdl1rKl1S1cx#organising-crime]{Organising Crime} Endeavours. The rivals remain an ongoing threat, and the next ‘Gang War’ result will involve them. Due to the support they can pull from legitimate Watch members, any Test made to oppose them will be Difficult (-20%).</p>",
         "5-8": "<p><strong>Watch - Someone Must be Found to Pay for the Crime</strong> – The headquarters is raided by the Watch, forcing them to relocate to an older (and smaller) hideout. The organisation’s level for the purpose of @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.oVncgdl1rKl1S1cx#organising-crime]{Organising Crime} Endeavours is reduced by one level until three adventures have passed or the character re-purchases the lost level. If a ‘Gang War’ event occurs during this period, the rival gang/leader gains +1 SL on all Tests.</p>",
@@ -251,45 +249,44 @@
       }
     },
     "Crypt Complications": {
-      "name": "Crypt Complications",
-      "description": "",
-      "results": {
-        "2-2": "<p><b>Stake.</b> The corpse has been impaled with a long stake of ash. What happens if it is removed is up to the GM. Any Character passing a <b>Very Easy (+60) Lore (Undead)</b> Test knows this is intended to prevent a corpse rising again as a Vampire.</p>",
-        "3-3": "<p><b>Papers.</b> The coffin is filled with papers and no corpse is found. The papers may divulge corrupt business practices, unethical magical experimentation, intrigue between noble houses, or other activity the GM feels is appropriate.</p>",
-        "4-6": "<p><b>Mass Grave.</b> You have uncovered a mass grave, filled with those too poor to afford a private plot. You must test for exposure to the @UUID[Compendium.wfrp4e-core.items.Item.aKiuGzlVO51JvsjV]{The Black Plague}.</p>",
-        "7-9": "<p><b>Fine Clothing.</b> The corpse wears a nice jacket worth 9/- and well-cut clothes worth 5/-.</p>",
-        "10-12": "<p><b>Pennies.</b> It is a tradition in the Old World to place two pennies on the eyes of a corpse so that it may pay its way into Morr’s realm. The theft of the pennies is considered abhorrent; it may result in the spirit of the dead becoming restless and is a primary reason why folk loathe Grave Robbers.</p>",
-        "13-15": "<p><b>Rich Grave Goods.</b> The corpse wears a coat worth 1 GC, fine clothes worth 10/-, several gold rings worth 4 GC.</p>",
-        "16-18": "<p><b>Ghouls.</b> As you break open the crypt, something hisses back at you. You have disturbed a pair of Ghouls at their feast. Nothing of value remains.</p>",
-        "19-19": "<p><b>Sumptuous Grave Goods.</b> The corpse wears robes worth 4 GC, sumptuous clothing worth 2 GC, and stunning jewels worth a total of 10 GC.</p>",
-        "20-20": "<p><b>Notable Person.</b> As above, but on a successful Hard (-20) Lore (Heraldry) Test, you recognise the corpse as local person of significance who disappeared recently.</p>"
-      }
-    },
-    "Fence Income Endeavour Complications": {
-      "name": "Fence Income Endeavour Complications",
-      "description": "",
-      "results": {
-        "1-1": "<p><strong>Refunds Sought.</strong> Just as you think you have gotten away with it, a buyer returns unsatisfied. Make a <strong>Difficult (-10) Haggle</strong> Test or lose half your earnings.</p>",
-        "2-2": "<p><strong>Unsafe House.</strong> If you possess or use a particular establishment to store or sell stolen goods, the local watch hear about it and start to consider raiding the venue. If this is not dealt with the next time you come to a period of downtime the Under Suspicion Event, applies before anything else is determined.</p>",
-        "3-4": "<p><strong>Hot Item.</strong> Among the goods you have been handling is an item being desperately sought by those from which it was stolen. The GM may decide on whether they are closing in on you to such a degree that it becomes a feature of your adventures in the future.</p>",
-        "5-6": "<p><strong>Rumour.</strong> You hear of a rumour about a developing opportunity, or a new type of scam. Details are up to the GM, but some ideas are given on the @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Irryfr7EthG42fzj.JournalEntryPage.XpxqHzvxCAr35b9R#underworld-rumours]{Underworld Rumours} table.</p>",
-        "7-8": "<p><strong>Contraband.</strong> One of your suppliers needs to dump a load of contraband off quickly with no questions asked. If you are agreeable, you may purchase any items from the @UUID[Compendium.wfrp4e-core.journals.JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.4CBQ1HlTC7lj9bFy]{Drugs and Poisons} table in the Consumer Guide for a quarter of its usual value (so a dose of @UUID[Compendium.wfrp4e-core.items.Item.W4X1Jx8AN84yRPDx]{Spit} normally worth 1 GC 5/– would now cost 6/3).</p>",
-        "9-9": "<p><strong>Hidden Finds.</strong> One item contains a pouch or compartment containing hidden treasure. As well as any income you make you may roll twice on @Table[contents-of-purse]{The Contents of a Purse} table.</p>",
-        "10-10": "<p><strong>Cursed Item.</strong> Among the contraband you have been handling is an artefact you'd sooner not have encountered. It could involve warpstone or malign magical energy, and counts as exposure to a @Corruption[moderate]{Moderate Corrupting Influence}.</p>"
-      }
-    },
-    "Grave Robber Income Endeavour Complications": {
-      "name": "Complicaciones en empresa de salario de Ladrón de tumbas",
-      "results": {
-        "1-1": "<p><strong>Haunted.</strong> Unquiet spirits are outraged by your atrocities. Any Undead Creatures with the Ethereal Creature Trait you encounter until the next period of Downtime are also granted the Plague}@UUID[Compendium.wfrp4e-core.items.Item.aE3pyW20Orvdjzj0]{Hatred (Your Character)} Creature Trait.</p>",
-        "2-2": "<p><strong>Shyish.</strong> Though you are likely unaware of it yourself, the Amethyst Wind of Magic coalesces about you. It does not do so in such quantity to affect spellcasting, but anyone with the @UUID[Compendium.wfrp4e-core.items.Item.OEjUvJKi0xmBwbS2]{Second Sight} Talent may perceive it. This effect dissipates by the next period of downtime.</p>",
-        "3-4": "<p><strong>Creepy Customer.</strong> You are approached by a secretive and sinister person who may have work for you in the future. The GM should roll on the @Table[creepy-customer]{Creepy Customer Table} secretly for ideas. It ought to be noted that any potential customer of a Grave Robber demands extreme discretion, whether they are a curious physician or diabolical necromancer.</p>",
-        "5-6": "<p><strong>Lucky Find.</strong> As well as making your usual income you secure an extra prize. Roll once on @Table[crypt-complications]{The Crypt Complications} table, ignoring details other than any loot you secure.</p>",
-        "7-8": "<p><strong>A Favour Owed.</strong> You think you've gotten away with your crimes when you are contacted by a person who insinuates that they know what you are up to. They may call in a Major Favour in time, as the price of keeping your crimes a secret.</p>",
-        "9-9": "<p><strong>Bad Dreams.</strong> You are plagued by nightmares, maybe sent by Morr himself. Between now and the next period of downtime, the GM may call on you to make a <strong>Challenging (+0) Cool</strong> Test once every other week. Failure results in you suffering from a @Condition[Fatigued]{Fatigued} Condition.</p>",
-        "10-10": "<p><strong>Rich Pickings.</strong> As well as making your usual income, you lift a couple of interesting items. Roll twice on @Table[crypt-complications]{The Crypt Complications} table, ignoring details other than any loot that you manage to secure.</p>"
-      }
-    },
+    "name": "Complicaciones de la tumba",
+    "description": "",
+    "results": {
+      "2-2": "<p><b>Estaca.</b> El cadáver ha sido atravesado con una larga estaca de fresno. Lo que ocurra si se retira queda a discreción del DJ. Cualquier Personaje que supere un <b>Chequeo Muy Fácil (+60) de Sabiduría académica (Muertos vivientes)</b> sabe que esto pretende impedir que el cadáver se alce de nuevo como Vampiro.</p>",
+      "3-3": "<p><b>Papeles.</b> El ataúd está lleno de papeles y no se halla cadáver. Los papeles pueden revelar prácticas comerciales corruptas, experimentos mágicos poco éticos, intrigas entre casas nobles u otra actividad que el DJ considere apropiada.</p>",
+      "4-6": "<p><b>Fosa común.</b> Has descubierto una fosa común, llena de quienes eran demasiado pobres para costearse una parcela. Debes comprobar si has estado expuesto a @UUID[Compendium.wfrp4e-core.items.Item.aKiuGzlVO51JvsjV]{La Peste Negra}.</p>",
+      "7-9": "<p><b>Ropa de calidad.</b> El cadáver viste una buena chaqueta por valor de 9cp y ropa bien confeccionada por valor de 5cp.</p>",
+      "10-12": "<p><b>Peniques.</b> Es tradición en el Viejo Mundo colocar dos peniques sobre los ojos de un cadáver para que pague su paso al reino de Morr. Robar esos peniques se considera abominable; puede agitar al espíritu del difunto y es una de las principales razones por las que la gente detesta a los Ladrones de tumbas.</p>",
+      "13-15": "<p><b>Ajuar funerario rico.</b> El cadáver lleva un abrigo por valor de 1co, ropa de calidad por 10cp, y varios anillos de oro de 4co.</p>",
+      "16-18": "<p><b>Necrófagos.</b> Al abrir la tumba, algo te sisea. Has molestado a un par de Necrófagos en su festín. No queda nada de valor.</p>",
+      "19-19": "<p><b>Ajuar funerario suntuoso.</b> El cadáver viste túnicas por valor de 4co, vestimenta suntuosa por 2co y joyas deslumbrantes por un total de 10co.</p>",
+      "20-20": "<p><b>Persona notable.</b> Igual que el resultado <em>Ajuar funerario suntuoso</em>, pero con un <b>Chequeo Difícil (−20) de Sabiduría académica (Heráldica)</b> reconoces el cadáver como una persona de importancia local que desapareció recientemente.</p>"
+    }
+  },
+      "Fence Income Endeavour Complications": {
+    "name": "Complicaciones en Empresa de salario de Perista",
+    "results": {
+      "1-1": "<p><strong>Reclamaciones de devolución.</strong> Justo cuando crees que te has librado, un comprador regresa insatisfecho. Haz un <strong>Chequeo Complicado (-10) de Regatear</strong> o pierdes la mitad de tus ganancias.</p>",
+      "2-2": "<p><strong>Refugio comprometido.</strong> Si posees o usas un establecimiento para almacenar o vender bienes robados, la guardia local se entera y empieza a considerar asaltar el lugar. Si no lo solucionas, en el próximo periodo entre aventuras se aplica antes que nada el Evento <em>Bajo Sospecha</em>.</p>",
+      "3-4": "<p><strong>Mercancía caliente.</strong> Entre los productos que has movido hay un objeto buscado desesperadamente por quienes fueron robados. El DJ puede decidir que este hecho pase a formar parte de tus aventuras futuras.</p>",
+      "5-6": "<p><strong>Rumor.</strong> Oyes un rumor sobre una oportunidad en ciernes o un nuevo tipo de timo. Los detalles quedan a cargo del DJ, pero hay ideas en la tabla @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Irryfr7EthG42fzj.JournalEntryPage.XpxqHzvxCAr35b9R#rumores-de-los-bajos-fondos]{Rumores de los bajos fondos}.</p>",
+      "7-8": "<p><strong>Contrabando.</strong> Uno de tus proveedores necesita quitarse de encima, rápido y sin preguntas, un lote de contrabando. Si accedes, puedes comprar cualquier objeto de la tabla @UUID[Compendium.wfrp4e-core.journals.JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.4CBQ1HlTC7lj9bFy]{Drogas y Venenos} de la Guía del Consumidor por una cuarta parte de su valor habitual (así, una dosis de @UUID[Compendium.wfrp4e-core.items.Item.W4X1Jx8AN84yRPDx]{Saliva} que vale normalmente 1co 5cp ahora costaría 6cp 3pb).</p>",
+      "9-9": "<p><strong>Premio oculto.</strong> Un objeto contiene una bolsita o compartimento con tesoro escondido. Además de cualquier ingreso obtenido, puedes tirar dos veces en la tabla @Table[contents-of-purse]{Contenido de una bolsa}.</p>",
+      "10-10": "<p><strong>Objeto maldito.</strong> Entre el contrabando que has manejado hay un artefacto con el que preferirías no haberte topado. Podría implicar piedra bruja o energía mágica maligna y cuenta como @Corruption[moderate]{Exposición Moderada a la Corrupción}.</p>"
+    }
+      },
+ "Grave Robber Income Endeavour Complications": {
+    "name": "Complicaciones en Empresa de salario de Ladrón de tumbas",
+    "results": {
+      "1-1": "<p><strong>Acosado por fantasmas.</strong> Los espíritus inquietos se indignan por tus atrocidades. Cualquier Criatura Muerto viviente con el Rasgo de Criatura <em>Etéreo</em> que te encuentres hasta el próximo periodo entre aventuras gana además el Rasgo de Criatura @UUID[Compendium.wfrp4e-core.items.Item.aE3pyW20Orvdjzj0]{Odio (tu Personaje)}.</p>",
+      "2-2": "<p><strong>Shyish.</strong> Aunque probablemente no lo notes, el Viento Amatista de la Magia se arremolina a tu alrededor. No en cantidad suficiente como para afectar a la hechicería, pero quien tenga el Talento @UUID[Compendium.wfrp4e-core.items.Item.OEjUvJKi0xmBwbS2]{Clarividencia} puede percibirlo. Este efecto se disipa en el próximo periodo entre aventuras.</p>",
+      "3-4": "<p><strong>Cliente siniestro.</strong> Se te acerca alguien reservado y siniestro que podría tener trabajo para ti en el futuro. El DJ debería tirar en secreto en la @Table[creepy-customer]{Tabla de clientes siniestros} para inspirarse. Conviene recordar que cualquier cliente de un Ladrón de tumbas exige discreción extrema, sea un físico curioso o un nigromante diabólico.</p>",
+      "5-6": "<p><strong>Hallazgo afortunado.</strong> Además de tus ingresos habituales, consigues un premio extra. Tira una vez en la Tabla @Table[crypt-complications]{Complicaciones de la tumba}, ignorando todo salvo el botín que obtengas.</p>",
+      "7-8": "<p><strong>Un favor pendiente.</strong> Crees haber salido impune cuando te contacta alguien insinuando que sabe a qué te dedicas. Podrá exigirte con el tiempo un Favor mayor como precio por guardar silencio.</p>",
+      "9-9": "<p><strong>Malos sueños.</strong> Te atormentan pesadillas, quizá enviadas por el propio Morr. De aquí al próximo periodo entre aventuras, el DJ puede pedirte un <strong>Chequeo Desafiante (+0) de Frialdad</strong> una vez cada dos semanas. Si fallas, sufres el Estado @Condition[Fatigado]{Fatigado}.</p>",
+      "10-10": "<p><strong>Botín jugoso.</strong> Además de tus ingresos habituales, levantas un par de objetos interesantes. Tira dos veces en la Tabla @Table[crypt-complications]{Complicaciones de la tumba}, ignorando todo salvo el botín que consigas.</p>"
+    }
+  },
     "Incriminating Artefact": {
       "name": "Artefacto incriminatorio",
       "results": {
@@ -367,7 +364,7 @@
       }
     },
     "Outlaw Income Endeavour Complications": {
-      "name": "Complicaciones en empresa de salario de Forajido",
+      "name": "Complicaciones en Empresa de salario de Forajido",
       "results": {
         "1-1": "<p><b>Bandit Casualty.</b> One of your fellow Outlaws is slain or badly hurt in the operation. If you are merely a Brigand or Outlaw this has no effect, but if you are an Outlaw Chief or Bandit King it means a henchman has been hurt, caught, or slain.</p>",
         "2-2": "<p><b>Dangerous Neighbours.</b> During your activities you hear of a group patrolling near your camp. These could be roving Orcs, a band of Elves seeking to protect the forest, or a determined Road Warden patrol. If this group isn’t dealt with you must move on and set up somewhere new before you can take more Income Endeavours.</p>",
