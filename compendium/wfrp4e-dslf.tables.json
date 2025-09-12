@@ -7,7 +7,7 @@
     }
   },
   "folders": {
-    "Burglary, Chicanery, and Fraud": "Burglary, Chicanery, and Fraud",
+    "Burglary, Chicanery, and Fraud": "Robos, chanchullos y fraudes",
     "Criminal Contacts": "Contactos criminales",
     "Endeavour Complications": "Complicaciones de empresa",
     "Events Tables": "Tablas de encuentros",
@@ -135,17 +135,17 @@
       }
     },
     "Burglar, Pickpocket, Thief Income Endeavour Complications": {
-      "name": "Complicaciones en empresa de salario de Ratero, Carterista y Ladrón",
-      "results": {
-        "1-1": "<p><strong>Ranaldans Take Note.</strong> A local group worshipping Ranald the Night Prowler learn of your activities. They could be good allies if you abide by the Ranaldan code, but may mislead you with deceptions and pranks if you offend them.</p>",
-        "2-2": "<p><strong>Drawing the Heat.</strong> You have drawn more heat than you would otherwise like. Whilst the city watch are more concerned with keeping the peace than investigating crimes, the Cult of Verena do sponsor dedicated investigators. Otherwise, the next time you come to a period of downtime, the Under Suspicion Event applies to you before anything else is determined.</p>",
-        "3-4": "<p><strong>Barred.</strong> Whilst no one can make an accusation stick, you gain a reputation for stealing. Shopkeepers and landlords decide you are not welcome in their establishments. The GM should decide exactly how many places bar you from entry, but at least one venue bars you. Where many taverns are in close proximity, such as Altdorf's Street of a Hundred Taverns, many may ban you simultaneously.</p>",
-        "5-6": "<p><strong>Lucky Find.</strong> In addition to securing your usual income, you make an extra find. Roll once on the @Table[contents-of-purse]{The Contents of a Purse} table.</p>",
-        "7-8": "<p><strong>A Favour Owed.</strong> You think you've gotten away with your crimes when you are contacted by a person who implies that they know what you are up to. They may call in a Minor Favour in time, as the price of keeping your crimes a secret.</p>",
-        "9-9": "<p><strong>Kingpin Takes Notice.</strong> Word of the thief's activities reaches the ear of a local crime lord. Such folk usually make a simple offer: work for me or suffer the consequences. See @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.CezQBybX47Mx7Fdt]{Organised Crime} for some ideas about kingpins.</p>",
-        "10-10": "<p><strong>Rich Pickings.</strong> In addition to making your usual income, you lift a couple of more interesting items. Roll twice on the @Table[contents-of-purse]{The Contents of a Purse} table.</p>"
-      }
-    },
+    "name": "Complicaciones en empresa de salario de Saqueador, Carterista y Ladrón",
+    "results": {
+      "1-1": "<p><strong>Los ranaldanos toman nota.</strong> Un grupo local que venera a Ranald, el Merodeador Nocturno, se entera de tus andanzas. Podrían ser buenos aliados si respetas el código de Ranald, pero si los ofendes pueden confundirte con engaños y bromas pesadas.</p>",
+      "2-2": "<p><strong>En el punto de mira.</strong> Has atraído más atención de la que te gustaría. Aunque la Guardia de la ciudad está más por mantener la paz que por investigar delitos, el Culto de Verena patrocina investigadores dedicados. La próxima vez que entres en un periodo entre aventuras, se te aplica el Evento <em>Bajo sospecha</em> antes de determinar nada más.</p>",
+      "3-4": "<p><strong>Vetado.</strong> Aunque nadie logra que prospere una acusación, te ganas fama de ladrón. Comerciantes y taberneros deciden que no eres bienvenido en sus locales. El DJ decide cuántos lugares te vetan, pero al menos uno te cierra la puerta. En zonas con muchas tabernas, como la Calle de las Cien Tabernas de Altdorf, pueden vetarte en varias a la vez.</p>",
+      "5-6": "<p><strong>Hallazgo afortunado.</strong> Además de asegurar tus ingresos habituales, tropiezas con algo extra. Tira una vez en la Tabla @Table[contents-of-purse]{Contenido de una bolsa}.</p>",
+      "7-8": "<p><strong>Un favor pendiente.</strong> Crees que te has librado cuando te contacta alguien que deja caer que sabe a qué te dedicas. Podrá reclamarte un favor menor con el tiempo, a cambio de mantener tus crímenes en secreto.</p>",
+      "9-9": "<p><strong>El capo se fija en ti.</strong> Las noticias de tus actividades llegan al oído de un señor del crimen local. Suelen hacer una oferta sencilla: trabaja para mí o atente a las consecuencias. Consulta @UUID[Compendium.wfrp4e-dslf.journals.JournalEntry.Gu0AnsYIpyHxK27i.JournalEntryPage.CezQBybX47Mx7Fdt]{Crimen organizado} para ideas sobre capos.</p>",
+      "10-10": "<p><strong>Botín jugoso.</strong> Además de tus ingresos habituales, levantas un par de objetos más interesantes. Tira dos veces en la Tabla @Table[contents-of-purse]{Contenido de una bolsa}.</p>"
+    }
+  },
     "Charlatan Income Endeavour Complications": {
       "name": "Complicaciones en empresa de salario de Charlatán",
       "results": {
@@ -291,20 +291,19 @@
       }
     },
     "Incriminating Artefact": {
-      "name": "Incriminating Artefact",
-      "description": "",
+      "name": "Artefacto incriminatorio",
       "results": {
-        "2-2": "<p><b>Chunk of Warpstone.</b> Kept in a lead-lined case, the stone is a Moderate Corrupting Influence and worth 3 GC.</p>",
-        "3-4": "<p><b>Silver Badge.</b> The badge displays the symbol of a profane cult or proscribed god, such as Khaine, Stromfels, or one of the Gods of Chaos. Ownership of this artefact may be criminal in itself. It is worth 6/8 to the right buyer.</p>",
-        "5-5": "<p><b>Seditionary Tract.</b> A pamphlet espousing revolutionary ideals, such as the satirical poems of Altdorf ’s Kloszowskiites, or the radical social reforms proposed by Middenheim’s New Millennialists.</p>",
-        "6-6": "<p><b>Mysterious Document.</b> This small scroll contains some sort of secret written in a complex cipher. They could be the notes of a spying organisation, such as Marienburg’s Fog Walkers, or an assassin’s contract.</p>",
-        "7-9": "<p><b>Laughing Powder.</b> [[/r 1d10]] doses. Also called @UUID[Compendium.wfrp4e-core.items.Item.jTFOrokjEHbi12rT]{Ranald's delight}. Each dose may be sold for 18/–.</p>",
-        "10-12": "<p><b>Hot Item.</b> The victim is in possession of a sapphire ring worth 5/–. However, they themself acquired this ring through sharp practice, dodgy dealing, or theft.</p>",
-        "13-15": "<p><b>Silver Badge.</b> The badge is worth 6/8. It displays the symbol of a gang with marked violent or criminal tendancies, such as Altdorf ’s Hooks or Fish, and people may hate or fear those who display such a sign of affiliation.</p>",
-        "16-17": "<p><b>Bone Relic.</b> Whilst this may be nothing more than a grisly trophy, perhaps it was intended for a necromantic rite.</p>",
-        "18-18": "<p><b>Mysterious Vial.</b> This small glass jar contains a strange liquid. It may be nothing more than a shot of exotic spirit, but may be a @UUID[Compendium.wfrp4e-wom.journals.JournalEntry.x6OdswRIafU9qGYs.JournalEntryPage.4k3qbP7drfV1mIdr#catalogue-of-potions]{magical potion}.</p>",
-        "20-20": "<p><b>Wayshard.</b> These large gemstones contain the soul essence of dead Elves. Whilst they can aid navigation, Elves do not trust them in the hands of others, but may reward those who return it to them.</p>",
-        "19-19": "<p><b>Vial of @UUID[Compendium.wfrp4e-core.items.Item.qfd01sggD9xbCuJY]{Black Lotus}.</b> 2 doses of the poison prepared for use as Blade Venom.</p>"
+        "2-2": "<p><b>Trozo de piedra bruja.</b> Guardado en un estuche forrado de plomo, la piedra es una Fuente de Corrupción Moderada y vale 3co.</p>",
+        "3-4": "<p><b>Insignia de plata.</b> La insignia muestra el símbolo de un culto profano o de un dios proscrito, como Khaine, Stromfels o alguno de los Dioses del Caos. Poseer este artefacto puede ser delito en sí mismo. Vale 6cp 8pb para el comprador adecuado.</p>",
+        "5-5": "<p><b>Folleto sedicioso.</b> Un panfleto que defiende ideales revolucionarios, como los poemas satíricos de los kloszowskitas de Altdorf, o las reformas sociales radicales propuestas por los Nuevos Milenaristas de Middenheim.</p>",
+        "6-6": "<p><b>Documento misterioso.</b> Este pequeño pergamino contiene algún secreto escrito con un cifrado complejo. Podrían ser notas de una organización de espionaje, como los Caminantes de la Niebla de Marienburgo, o un contrato de asesinato.</p>",
+        "7-9": "<p><b>Polvo de la risa.</b> [[/r 1d10]] dosis. También llamado @UUID[Compendium.wfrp4e-core.items.Item.jTFOrokjEHbi12rT]{Delicia de Ranald}. Cada dosis puede venderse por 18cp.</p>",
+        "10-12": "<p><b>Mercancía caliente.</b> La víctima posee un anillo de zafiro valorado en 5cp. Sin embargo, lo consiguió con malas artes, trapicheos o robo.</p>",
+        "13-15": "<p><b>Insignia de plata.</b> La insignia vale 6cp 8pb. Muestra el símbolo de una banda con marcadas tendencias violentas o criminales, como los Garfios o los Peces de Altdorf, y la gente puede odiar o temer a quienes exhiban tal afiliación.</p>",
+        "16-17": "<p><b>Reliquia ósea.</b> Aunque puede no ser más que un trofeo macabro, quizá estuviera destinada a un rito nigromántico.</p>",
+        "18-18": "<p><b>Vial misterioso.</b> Este pequeño tarro de vidrio contiene un líquido extraño. Podría ser solo un sorbo de aguardiente exótico, pero también podría ser una @UUID[Compendium.wfrp4e-wom.journals.JournalEntry.x6OdswRIafU9qGYs.JournalEntryPage.4k3qbP7drfV1mIdr#catalogue-of-potions]{poción mágica}.</p>",
+        "20-20": "<p><b>Fragmento de Monolito.</b> Estas grandes gemas contienen la esencia del alma de Elfos muertos. Si bien pueden ayudar en la navegación, los Elfos no confían en ellas en manos ajenas, aunque podrían recompensar a quien se las devuelva.</p>",
+        "19-19": "<p><b>Vial de @UUID[Compendium.wfrp4e-core.items.Item.qfd01sggD9xbCuJY]{Loto Negro}.</b> 2 dosis del veneno preparado para untarse en una hoja.</p>"
       }
     },
     "Monolith Table": {
@@ -465,50 +464,48 @@
       }
     },
     "The Contents of a Purse": {
-      "name": "The Contents of a Purse",
-      "description": "",
+      "name": "Contenido de una bolsa",
       "results": {
-        "2-2": "<p><b>Something Incriminating.</b> The victim carries an item of value, but it is dangerous or incriminating and the pickpocket may prefer not to be in possession of it. Roll on the @Table[incriminating-artefact]{Incriminating Artefact table}.</p>",
-        "3-4": "<p><b>Moths.</b> The purse contains nothing.</p>",
-        "5-6": "<p><b>Out of Pocket.</b>The victim possesses a single coin determined by their Status.</p>",
-        "7-7": "<p><b>Set of Bone Dice.</b> This pair of dice is worth 10d.</p>",
-        "8-9": "<p><b>Taffeta Handkerchief.</b> A fine handkerchief worth 1/–. Roll [[/r 1d10]], on a 5 or more, the item is monogrammed.</p>",
-        "10-12": "<p><b>Payday.</b> The victim carries twice as much money as they normally would.</p>",
-        "13-13": "<p><b>Silver Ring with Griffon Decoration.</b> This piece of jewellery is worth 3/–.</p>",
-        "14-14": "<p><b>Silk Handkerchief.</b> A fine silk handkerchief worth 3/6. Roll [[/r 1d10]], on a 5 or more, the item is monogrammed.</p>",
-        "15-15": "<p><b>Leather Gloves.</b> A pair of well made gloves worth 4/–.</p>",
-        "16-16": "<p><b>Ruby Ring.</b> A silver ring set with a red precious stone worth 5/–.</p>",
-        "17-17": "<p><b>Silver Hammer Badge.</b> A small but intricate badge declaring the wearer's devotion to Sigmar worth 6/8.</p>",
-        "18-18": "<p><b>Big Spender.</b> As well as coins equal to double the owner’s Status, add a further [[/r 1d10]] coins.</p>",
-        "19-19": "<p><b>Bottle of Perfume.</b> A small glass bottle with a silver stopper, containing a musky fluid worth 10/–.</p>",
-        "20-20": "<p><b>String of Miraglianese Pearls.</b> This necklace is a loop of pearls harvested from the Tilean Sea worth 10/–.</p>"
+        "2-2": "<p><b>Algo incriminatorio.</b> La víctima lleva un objeto valioso, pero es peligroso o incriminatorio, y el carterista quizá prefiera no tenerlo encima. Tira en la @Table[incriminating-artefact]{Tabla de artefacto incriminatorio}.</p>",
+        "3-4": "<p><b>Aire.</b> La bolsa no contiene nada.</p>",
+        "5-6": "<p><b>Sin blanca.</b> La víctima lleva una única moneda determinada por su Estatus.</p>",
+        "7-7": "<p><b>Juego de dados de hueso.</b> Este par de dados vale 10pb.</p>",
+        "8-9": "<p><b>Pañuelo de tafetán.</b> Un fino pañuelo valorado en 1cp. Tira [[/r 1d10]]; con 5 o más, el objeto tiene monograma.</p>",
+        "10-12": "<p><b>Día de paga.</b> La víctima lleva el doble de dinero de lo habitual.</p>",
+        "13-13": "<p><b>Anillo de plata con decoración de grifo.</b> Esta joya vale 3cp.</p>",
+        "14-14": "<p><b>Pañuelo de seda.</b> Un fino pañuelo de seda valorado en 3cp 6pb. Tira [[/r 1d10]]; con 5 o más, el objeto tiene monograma.</p>",
+        "15-15": "<p><b>Guantes de cuero.</b> Un par de guantes bien hechos valorados en 4cp.</p>",
+        "16-16": "<p><b>Anillo con rubí.</b> Un anillo de plata engastado con una piedra preciosa roja valorado en 5cp.</p>",
+        "17-17": "<p><b>Insignia de martillo de plata.</b> Una pequeña pero intrincada insignia que declara la devoción del portador a Sigmar, valorada en 6cp 8pb.</p>",
+        "18-18": "<p><b>Derrochador.</b> Además de monedas por valor del doble del Estatus del dueño, añade otras [[/r 1d10]] monedas.</p>",
+        "19-19": "<p><b>Frasco de perfume.</b> Un pequeño frasco de vidrio con tapón de plata que contiene un líquido almizclado, valorado en 10cp.</p>",
+        "20-20": "<p><b>Collar de perlas de Miragliano.</b> Este collar es una ristra de perlas recogidas en el Mar de Tilea, valorado en 10cp.</p>"
       }
     },
     "Victim Quirk": {
-      "name": "Victim Quirk",
-      "description": "",
-      "results": {
-        "2-2": "<p><strong>Already Acquainted.</strong> The victim is vaguely familiar with the Character, having met them before or having witnessed their previous antics. The degree to which they know the Character is left to the GM, and the Character may take a <strong>Hard (-20) Perception</strong> Test to spot the flicker of recognition on their face.</p>",
-        "3-3": "<p><strong>Uncanny Ability.</strong> The victim possesses a preternatural ability that makes stealing from them complicated. Perhaps they are a scryer with the @UUID[Compendium.wfrp4e-wom.items.Item.GxfrW2whVdNJABVQ]{Psychometry} Skill, a seer, or an apprentice wizard or witch.</p>",
-        "4-4": "<p><strong>Friends in Low Places.</strong> The victim has friends in the criminal underworld or pays to a protection racket. The mob will not be happy to learn that their friend has been made a victim of a crime (that they didn’t profit from).</p>",
-        "5-5": "<p><strong>Amputated Part.</strong> Illness or injury has resulted in a lost or functionless body part. Roll [[/r 1d10]]. 1–3: Leg, 4–6: Arm, 7–8: Eyes, 9: Tongue, 10: Ears.</p>",
-        "6-6": "<p><strong>Dummy Purse.</strong> The victim has encountered Pickpockets before and wears a conspicuous purse which contains two pennies. They keep coins of larger denominations stuffed into their sock or hat band. Roll a further [[/r 1d10]]. On a 1, the mark has been so vindictive as to leave a poisoned needle in the dummy purse, inflictng a @Condition[Poisoned]{Poisoned} Condition on anyone who takes the dummy purse and fails a <strong>Challenging (+0) Perception</strong> Test.</p>",
-        "7-7": "<p><strong>Unsuspecting.</strong> You’d feel bad, if they weren’t making this so easy. Their @UUID[Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB]{Perception} Tests suffer a penalty of -1 SL.</p>",
-        "8-8": "<p><strong>Intoxicated.</strong> The victim has drunk too much ale or eaten some weirdroot. Roll on the @Table[stinking-drunk]{Stinking Drunk table} or apply the effects of @UUID[Compendium.wfrp4e-core.items.Item.b6tGqvNe1jYBdeN5]{Weirdroot}.</p>",
-        "9-9": "<p><strong>Veteran.</strong> The victim was once a state trooper of the Empire. Apply the @UUID[Compendium.wfrp4e-core.items.Item.9NROryHer1uXAKwY]{Elite} Creature Trait.</p>",
-        "10-10": "<p><strong>Tough Customer.</strong> You might not like to tangle with this fellow. Apply the @UUID[Compendium.wfrp4e-core.items.Item.15ENOMf345S5AL68]{Brute} Creature Trait.</p>",
-        "11-11": "<p><strong>Cautious.</strong> Most folk in the Empire know that criminals prey upon unwary customers in taverns or filtch items from unguarded market stalls. Provide the victim with a Fortune point that can be spent on rerolling any one Test that might prevent them from falling victim to a criminal act.</p>",
-        "12-12": "<p><strong>Quick Witted.</strong> This victim is cool and smart. Apply the @UUID[Compendium.wfrp4e-core.items.Item.Ni4hNAPv3LhTpgMA]{Clever} Creature Trait.</p>",
-        "13-13": "<p><strong>Feeling Peaky.</strong> The victim is coming down with the @UUID[Compendium.wfrp4e-core.items.Item.UAwTqZ3hqNb7vq9s]{Itching Pox}. On approaching the mark the Character must pass an <strong>Average (+20) Perception</strong> Test to notice telltale blisters before they get too close.</p>",
-        "14-14": "<p><strong>Future Patron.</strong> The victim may be a person who is in a position to offer the Pickpocket a job in the future, or who might prove to supply vital assistance or information in a forthcoming adventure.</p>",
-        "15-15": "<p><strong>This One’s Jittery.</strong> Getting the better of the victim is tricky. Their @UUID[Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB]{Perception} Tests benefit from +1 SL.</p>",
-        "16-16": "<p><strong>Cutpurse.</strong> The victim also indulges in petty larceny. Perhaps the Pickpocket will be robbed in turn.</p>",
-        "17-17": "<p><strong>Friends in High Places.</strong> The victim may not be particularly wealthy or powerful themself, but they have connections to those who are. Maybe they are a servant in a noble household, or something more exotic like the thrall of a Vampire, a spy for another nation, or a member of a Chaos cult. This may provide added attractions to those seeking to exploit them but would also mean the victim may be able to find assistance in gaining redress.</p>",
-        "18-18": "<p><strong>Vengeful.</strong> This victim is highly motivated to take revenge on anyone who steals from them. When they become aware that they have become the victim of a crime, they devote a surprising amount of energy and resources in finding out who stole from them and seeing them brought to justice. Dwarf victims may be considered to be like this by default.</p>",
-        "19-19": "<p><strong>Diseased.</strong> The victim is in the early stages of @UUID[Compendium.wfrp4e-core.items.Item.aKiuGzlVO51JvsjV]{the Black Plague} and infested with fleas. On approaching the victim, the Character must pass a <strong>Challenging (+0) Percpetion</strong> Test to notice symptoms and avoid a test for contraction.</p>",
-        "20-20": "<p><strong>Mutant.</strong> The victim is a mutant. Their mutation is concealed under their clothing, but may become obvious to a Pickpocket during the attempt to steal from them. Roll [[/r 1d10]]: 1–2: @UUID[Compendium.wfrp4e-core.items.Item.op4GKikIQee7JMXw]{Animalistic Legs}, 3–4: @UUID[Compendium.wfrp4e-core.items.Item.iLZcSRUbxKBecACZ]{Corpulent}, 5–6: @UUID[Compendium.wfrp4e-core.items.Item.dsYDcdQfJGc7wxSX]{Emaciated}, 7–8: @UUID[Compendium.wfrp4e-core.items.Item.u5lMTKaOsZfiE3p0]{Extra Leg Joints}, 9–10: @UUID[Compendium.wfrp4e-core.items.Item.ArCg0WaBxLgPQA8F]{Patchy Feathers}.</p>"
-      }
-    },
+  "name": "Peculiaridad de la Víctima",
+  "results": {
+    "2-2": "<p><strong>Conocido previamente.</strong> La víctima reconoce vagamente al PJ, porque ya se han visto antes o ha presenciado sus andanzas. El grado en que conoce al PJ queda a discreción del DJ, y el PJ puede hacer un <strong>Chequeo Difícil (–20) de Percepción</strong> para detectar ese gesto fugaz de reconocimiento en su rostro.</p>",
+    "3-3": "<p><strong>Habilidad extraña.</strong> La víctima posee una capacidad extraña que complica robarle. Tal vez sea un augur con la habilidad @UUID[Compendium.wfrp4e-wom.items.Item.GxfrW2whVdNJABVQ]{Psicometría}, un vidente o un aprendiz de hechicero o bruja.</p>",
+    "4-4": "<p><strong>Amigos en los bajos fondos.</strong> La víctima tiene amigos en el hampa o paga por protección. A la chusma no le hará gracia enterarse de que su amigo ha sido víctima de un delito (del que ellos no sacaron tajada).</p>",
+    "5-5": "<p><strong>Miembro amputado.</strong> Una enfermedad o herida ha provocado la pérdida o inutilidad de una parte del cuerpo. Tira [[/r 1d10]]. 1–3: Pierna, 4–6: Brazo, 7–8: Ojos, 9: Lengua, 10: Orejas.</p>",
+    "6-6": "<p><strong>Bolsa señuelo.</strong> La víctima ya se ha topado con carteristas y lleva una bolsa llamativa con dos peniques. Las monedas de mayor valor van escondidas en el calcetín o la cinta del sombrero. Tira otro [[/r 1d10]]. Con un 1, el objetivo ha sido tan rencoroso como para dejar una aguja envenenada en la bolsa señuelo, infligiendo el Estado @Condition[Poisoned]{Envenenado} a quien la coja y falle un <strong>Chequeo Desafiante (+0) de Percepción</strong>.</p>",
+    "7-7": "<p><strong>Desprevenido.</strong> Te daría pena… si no te lo estuviera poniendo tan fácil. Sus Chequeos de @UUID[Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB]{Percepción} sufren un penalizador de –1 NE.</p>",
+    "8-8": "<p><strong>Intoxicado.</strong> La víctima ha bebido demasiada cerveza o ha comido Raíz extraña. Tira en la tabla @Table[stinking-drunk]{Borracho como una cuba} o aplica los efectos de @UUID[Compendium.wfrp4e-core.items.Item.b6tGqvNe1jYBdeN5]{Raíz extraña}.</p>",
+    "9-9": "<p><strong>Veterano.</strong> La víctima fue en su día un soldado estatal del Imperio. Aplica el Rasgo de Criatura @UUID[Compendium.wfrp4e-core.items.Item.9NROryHer1uXAKwY]{Elite}.</p>",
+    "10-10": "<p><strong>Tipo duro.</strong> Mejor no te metas con este fulano. Aplica el Rasgo de Criatura @UUID[Compendium.wfrp4e-core.items.Item.15ENOMf345S5AL68]{Bruto}.</p>",
+    "11-11": "<p><strong>Precavido.</strong> La mayoría en el Imperio sabe que los criminales se ceban con clientes desprevenidos en tabernas o birlan cosas de puestos sin vigilancia. Concede a la víctima un Punto de Fortuna que pueda gastarse para repetir un único Chequeo que evite que caiga víctima de un acto criminal.</p>",
+    "12-12": "<p><strong>Avispado.</strong> Esta víctima es serena y lista. Aplica el Rasgo de Criatura @UUID[Compendium.wfrp4e-core.items.Item.Ni4hNAPv3LhTpgMA]{Listo}.</p>",
+    "13-13": "<p><strong>Se encuentra pachucho.</strong> La víctima empieza a padecer la @UUID[Compendium.wfrp4e-core.items.Item.UAwTqZ3hqNb7vq9s]{Plaga picante}. Al acercarse a ella, el PJ debe superar un <strong>Chequeo Normal (+20) de Percepción</strong> para notar las ampollas reveladoras antes de aproximarse demasiado.</p>",
+    "14-14": "<p><strong>Futuro patrón.</strong> La víctima podría estar en posición de ofrecer trabajo al carterista más adelante, o de proporcionar ayuda o información vital en el futuro.</p>",
+    "15-15": "<p><strong>Está nervioso.</strong> Ganarle la mano a la víctima es complicado. Sus Chequeos de @UUID[Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB]{Percepción} se benefician de +1 NE.</p>",
+    "16-16": "<p><strong>Cortabolsas.</strong> La víctima también practica la ratería. Quizá el carterista acabe siendo robado a su vez.</p>",
+    "17-17": "<p><strong>Amigos en las altas esferas.</strong> La víctima puede no ser especialmente rica o poderosa por sí misma, pero tiene conexiones con quienes sí lo son. Tal vez sirva en una casa noble, o algo más exótico como ser el siervo de un Vampiro, un espía de otra nación o un miembro de una secta del Caos. Esto puede atraer a quienes busquen explotarla, pero también significa que podría hallar ayuda para resarcirse.</p>",
+    "18-18": "<p><strong>Vengativo.</strong> Esta víctima está muy motivada para vengarse de quien le robe. Cuando descubre que ha sido víctima de un delito, destina una sorprendente cantidad de energía y recursos a averiguar quién le robó y llevarlo ante la justicia. Los Enanos pueden considerarse así por defecto.</p>",
+    "19-19": "<p><strong>Enfermo.</strong> La víctima está en las primeras fases de @UUID[Compendium.wfrp4e-core.items.Item.aKiuGzlVO51JvsjV]{la Peste Negra} y llena de pulgas. Al acercarse a la víctima, el PJ debe superar un <strong>Chequeo Desafiante (+0) de Percepción</strong> para notar los síntomas y evitar un chequeo de contagio.</p>",
+    "20-20": "<p><strong>Mutante.</strong> La víctima es un mutante. Su mutación va oculta bajo la ropa, pero puede hacerse evidente para un carterista durante el intento de robo. Tira [[/r 1d10]]: 1–2: @UUID[Compendium.wfrp4e-core.items.Item.op4GKikIQee7JMXw]{Patas de animal}, 3–4: @UUID[Compendium.wfrp4e-core.items.Item.iLZcSRUbxKBecACZ]{Corpulento}, 5–6: @UUID[Compendium.wfrp4e-core.items.Item.dsYDcdQfJGc7wxSX]{Demacrado}, 7–8: @UUID[Compendium.wfrp4e-core.items.Item.u5lMTKaOsZfiE3p0]{Articulaciones adicionales en las piernas}, 9–10: @UUID[Compendium.wfrp4e-core.items.Item.ArCg0WaBxLgPQA8F]{Plumaje ralo}.</p>"
+  }
+},
     "Watch Presence": {
       "name": "Watch Presence",
       "description": "",
